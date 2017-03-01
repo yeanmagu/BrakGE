@@ -1,0 +1,18 @@
+ERROR 2016-12-01 11:05:26,980 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-12-01 11:05:30,280 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-12-01 11:05:31,687 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-12-01 11:05:33,476 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-12-01 11:05:34,845 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-12-01 11:06:39,840 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-12-01 11:32:47,348 - Mensaje:'Vendedor' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-12-01 16:38:41,240 - Mensaje:Index and length must refer to a location within the string.
+Parameter name: length, Inner:NA
+ERROR 2016-12-01 16:38:55,331 - Mensaje:Index and length must refer to a location within the string.
+Parameter name: length, Inner:NA
+ERROR 2016-12-01 16:39:52,146 - Mensaje:Index and length must refer to a location within the string.
+Parameter name: length, Inner:NA
+ERROR 2016-12-01 16:39:59,638 - Mensaje:Index and length must refer to a location within the string.
+Parameter name: length, Inner:NA
+ERROR 2016-12-01 16:41:06,695 - Mensaje:Index and length must refer to a location within the string.
+Parameter name: length, Inner:NA

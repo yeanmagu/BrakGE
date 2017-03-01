@@ -1,0 +1,164 @@
+﻿
+                
+        .style3
+        {
+            width: 113px;
+        }
+        .style5
+        {
+            width: 94px;
+            height: 24px;
+        }
+        .style6
+        {
+            width: 113px;
+            height: 24px;
+        }
+        .style7
+        {
+            height: 24px;
+        }
+        
+                
+        table
+        {
+           border:thin solid #d7d6d6;
+        }
+
+        
+        .clear
+        {
+            clear:both;
+            height: 23px;
+            width: 740px;
+        }
+                
+        #form1
+        {
+            height: 5896px;
+    margin-bottom: 10px;
+}
+        .Botones
+        {
+            margin-top:10px;
+            height: 45px;
+        }
+        
+        .style14
+        {
+            width: 94px;
+        }
+        .style15
+        {
+            width: 13px;
+        }
+        
+        
+    
+        .h2
+        {
+            font-family:Trebuchet MS;
+            background:url(../Imagenes/backhs.jpg);
+            color:#5E5E5E !important;
+            padding-left:5px;
+
+        }
+        
+        .AjaxToolkitStyle .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input
+{
+    background-image: url(imagenes/barra2.png);
+    background-position: top left;
+    background-repeat:no-repeat;
+    border: 0px none;
+    color: #030202;
+    font-size: 13px;
+    height: 16px;
+    width: 170px;
+    top:0px ;
+    
+}
+.AjaxToolkitStyle .ajax__combobox_inputcontainer .ajax__combobox_buttoncontainer button
+{
+    background-image: url(imagenes/arrow.png);
+    background-position: top left;
+    border: 0px none;
+    height: 23px;
+    width: 23px;
+    top:0px;
+}
+.AjaxToolkitStyle .ajax__combobox_itemlist
+{
+    border-color: #0F2543;
+    background-color: #EFEFEF;
+    width: 180px;
+    top:0px;
+    
+} 
+
+.ajax__combobox__inputcontainer
+{
+    top: 0px !important;
+}
+
+
+
+        body
+        {
+            width:740px;
+            font-family:Trebuchet MS;
+            /*color:#a9a7a7;*/
+            color:#5e5e5e;
+        }
+        #table1
+        {
+            border:0;
+            background:url(bar-cab.png);
+            
+        }
+        #table2
+        {
+        }
+        
+        #table3
+        {
+        }
+        
+        .style17
+        {
+            width: 155px;
+        }
+        .style19
+        {
+            width: 306px;
+        }
+        .style20
+        {
+            width: 111px;
+            height: 24px;
+        }
+        
+        .titulo
+        {
+            border:none;
+            background:url(../Imagenes/backhs.jpg);
+            padding-left:5px;
+            color:#5e5e5e;
+        }
+        
+        .style16
+        {
+            width: 100px;
+        }
+        
+        .style21
+        {
+            width: 581px;
+        }
+
+        
+        .style22
+        {
+            width: 74px;
+            height: 24px;
+        }
+        

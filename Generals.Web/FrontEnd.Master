@@ -1,0 +1,214 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrontEnd.master.cs" Inherits="BrakGeWeb.FrontEnd" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="custom/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="custom/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="custom/css/prettyPhoto.css" rel="stylesheet" />
+    <link href="custom/css/price-range.css" rel="stylesheet" />
+    <link href="custom/css/animate.css" rel="stylesheet" />
+    <link href="custom/css/main.css" rel="stylesheet" />
+    <link href="custom/css/responsive.css" rel="stylesheet" />
+
+
+    <script src="custom/FancyZoom/js-global/FancyZoom.js"></script>
+    <script src="custom/FancyZoom/js-global/FancyZoomHTML.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <title>MC By Maricruz</title>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png" />
+
+    <style>
+        .header-middle
+        {
+            background: #FFF;
+        }
+
+        .shop-menu ul li a
+        {
+            color: #000;
+            padding: 5px !important;
+            border-radius:5px;
+        }
+
+        .shop-menu ul li a:hover
+        {
+            background: none !important;
+        }
+
+        .footer
+        {
+            background: #E3E6F8;
+        }
+
+        .header-middle
+        {
+            border-bottom: 4px solid #3B4498;
+            /*border-bottom: 4px solid #A2C75A;*/
+        }
+
+        .header-middle .container .row
+        {
+            border-bottom:none !important;
+        }
+        .subitem
+        {
+            padding: 4px;
+        }
+        .subitem:hover
+        {
+            background: #E1E1E1;
+            border-radius: 5px;
+            color: #FFF;
+        }
+
+        body{
+            
+            padding-top:130px !important;
+        }
+
+    </style>
+
+    <script>
+        $("document").ready(function () {
+            //$("a").click(function (e) {
+            //    e.preventDefault();
+            //});
+        });
+    </script>
+</head>
+<body onload="setupZoom()">
+    <form id="form1" runat="server">
+    <header id="header" class="navbar-fixed-top"><!--header-->
+        <div class="header_top"><!--header_top-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="contactinfo">
+                            <ul class="nav nav-pills">
+                                <li><a href="#"><i class="fa fa-phone"></i>Whatsapp 3017605480</a></li>
+                                <!-- <li><a href="#"><i class="fa fa-envelope"></i> info@domain.com</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="social-icons pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <%--     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>--%>
+                               <%-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li>--%>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header_top-->
+
+        <div class="header-middle "><!--header-middle-->
+            <div class="container">
+                <div class="row" style="padding-top:5px !important;padding-bottom:5px !important">
+                    <div class="col-sm-4">
+                        <div class="logo pull-left">
+                            <a href="index.aspx"><img src=" images/logo.jpg" alt="" height="60px"  /></a>
+                        </div>
+                        <div class="btn-group pull-right">
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="shop-menu pull-right">
+                            <ul class="nav navbar-nav collapse navbar-collapse">
+                                <li><a href="index.aspx"><i class="fa fa-home"></i>Inicio</a></li>
+                                <li><a href="nosotros.aspx" ><i class="fa fa-users"></i>Nosotros</a></li>
+                                <li class="dropdown"><a href="articulos.aspx"><i class="fa fa-tags"></i>Articulos<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu" >
+                                      <%--  <li><a href="">item 1</a> </li>
+                                        <li><a href="">item 2</a> </li>
+                                        <li><a href="">item 3</a> </li>
+                                        <li><a href="">item 4</a> </li>--%>
+                                        <asp:Panel ID="pnlMenu" runat="server"></asp:Panel>
+                                    </ul>
+                                </li>
+                                <li><a href="Login.aspx" ><i class="fa fa-sign-in"></i>Iniciar Sesión</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header-middle-->
+
+        <br>
+    </header><!--/header-->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    <footer id="footer"><!--Footer-->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="companyinfo">
+                            <h2 class="mlogotxt"><span>MC</span>-By Maricruz</h2>
+                            <p>Glamour a tu alcance. </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="col-sm-9">
+                            <div class="video-gallery text-center">
+                                <p>
+                                    Tienda Virtual Bolsos-Billeteras-Cosmetiqueras-Portacelulares-Moned Sandalias planas y altas Baletas y sandalias de niñas EN CUERO <br>📞3017605480 ✉ Colombia Valledupar
+                                </p>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="address">
+                            <img src="custom/images/home/map.png" alt="" />
+                            <p> Colombia Valledupar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <p class="pull-left">Copyright © 2016 MC By Maricruz. Todos los derechos reservados.</p>
+                    <p class="pull-right">Diseñado por  <span><a target="_blank" href="http://www.brakapp.com">Brakapp S.A</a></span></p>
+                </div>
+            </div>
+        </div>
+
+    </footer><!--/Footer-->
+
+
+
+    <script src="custom/js/jquery.js"></script>
+    <script src="custom/js/bootstrap.min.js"></script>
+    <script src="custom/js/jquery.scrollUp.min.js"></script>
+    <script src="custom/js/price-range.js"></script>
+    <script src="custom/js/jquery.prettyPhoto.js"></script>
+    <script src="custom/js/main.js"></script>
+    
+    </form>
+</body>
+</html>

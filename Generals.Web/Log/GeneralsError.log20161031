@@ -1,0 +1,4 @@
+ERROR 2016-10-31 22:23:01,059 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Documentos_FomaDePago". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.FomaDePago", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-10-31 22:23:24,607 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Documentos_FomaDePago". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.FomaDePago", column 'ID'.
+Se terminó la instrucción., Inner:NA

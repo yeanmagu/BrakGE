@@ -1,0 +1,139 @@
+﻿body
+{
+    background:url("../Imagenes/backbody.png") repeat-x;
+}
+
+.bienvenida
+        {
+            background: #e63b55; /* Old browsers */
+            background: -moz-linear-gradient(top,  #e63b55 0%, #c31832 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e63b55), color-stop(100%,#c31832)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #e63b55 0%,#c31832 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #e63b55 0%,#c31832 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #e63b55 0%,#c31832 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  #e63b55 0%,#c31832 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e63b55', endColorstr='#c31832',GradientType=0 ); /* IE6-9 */
+
+
+
+            color:#FFFFFF;
+            height:40px;
+            padding-top:7px;
+        }
+
+        .banner
+        {
+            
+  
+           
+            padding:0 !important;
+            height:130px !important;
+        }
+
+        .icons
+        {
+            display:block;
+
+            
+            
+        }
+
+        .socupacional
+        {
+            background:url("../Imagenes/salud.png");
+            background-size:100%;
+            background-repeat:no-repeat;
+        }
+         .socupacional:hover
+        {
+             background:url("../Imagenes/salud_hover.png");
+             background-size:100%;
+               background-repeat:no-repeat;
+        }
+
+        .omineras
+        {
+            background:url("../Imagenes/seguridad.png");
+            background-size:100%;
+            background-repeat:no-repeat;
+   
+
+        }
+         .omineras:hover
+        {
+            
+            background:url("../Imagenes/seguridad_hover.png");
+            background-size:100%;
+            background-repeat:no-repeat;
+
+        }
+
+        .trasa
+        {
+            background:url("../Imagenes/startApp/03.png");
+        }
+        .trasa:hover
+        {
+            background:url("../Imagenes/startApp/03hover.png");
+        }
+        .portal
+        {
+            background:url("../Imagenes/startApp/01.png");
+        }
+        .portal:hover
+        {
+            background:url("../Imagenes/startApp/01hover.png");
+        }
+        .campus
+        {
+            background:url("../Imagenes/startApp/04.png");
+        }
+        .campus:hover
+        {
+            background:url("../Imagenes/startApp/04hover.png");
+        }
+
+        .campus1
+        {
+            height:90px !important;
+            background:url("../Imagenes/startApp/02.png");
+            
+            background-size: 180px 85px !important;
+        }
+        .campus1:hover
+        {
+            background:url("../Imagenes/startApp/02hover.png");
+        }
+
+
+
+
+
+        .fondo
+        {
+           background: -webkit-radial-gradient(ellipse cover, #fff, #eee, #eee);
+            background: -moz-radial-gradient(ellipse cover, #fff, #ccc, #ccc);
+        }
+
+        .clear
+        {
+            clear:both;
+        }
+
+        .empresas
+        {
+            padding-top:5px;
+            background:#FFF;
+        }
+
+        footer
+        {
+            height:70px;
+            padding-top:20px;
+            border-top:1px solid #d8d8d8;
+        }
+#contenedorp
+{
+    background:#fff;
+}
+

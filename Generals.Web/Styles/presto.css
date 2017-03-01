@@ -1,0 +1,553 @@
+﻿body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.footer
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #C0C0C0;
+	text-align: center;
+}
+.TableTitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: White;
+    text-align: left;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 200px;
+    font-weight: bold;
+    background-color: #094fa4;
+    text-indent: 5px;
+    margin-bottom: 5px;
+    background-image: url('../images/BarColombia.jpg');
+}
+.AccordionTitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: White;
+    text-align: left;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    height: 20px;
+    font-weight: bold;
+    background-color: #094fa4;
+    text-indent: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-image: url(../images/BarColombia.jpg);
+}
+.UserControlTitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #033769;
+    text-align: Left;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    height: 20px;
+    font-weight: bold;
+    background-color: #92D2EE;
+    text-indent: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.gvHeaderText
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: left;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    height: 17px;
+    font-weight: bold;
+    background-color: #033769;
+    text-indent: 5px;
+    margin-bottom: 5px;
+}
+.gvItemText
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: #000000;
+    text-align: Center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    height: 17px;
+    font-weight: normal;
+    text-indent: 5px;
+    margin-bottom: 5px;
+}
+.UserControlTitleSelected
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #033769;
+    text-align: left;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    height: 20px;
+    font-weight: bold;
+    background-color: #92D2EE;
+    text-indent: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.AccordionTitleSelected
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    /*color: #FFFFFF;*/
+    color:White;
+    text-align: left;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    height: 20px;
+    font-weight: bold;
+    /*background-color: #033769;*/
+    text-indent: 5px;
+    cursor: pointer;
+     background-image:url(../images/BarColombia.jpg);
+}
+.Title1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #094FA4;
+    font-weight: bold;
+}
+.combo
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+	margin-left: 0px;    
+}
+.text
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: inherit;
+    color: #333333;
+    vertical-align: middle;
+    text-indent: inherit;
+    valign:top;
+	font-weight: 700;
+
+}
+.textL
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align:left;
+    color: #333333;
+ 
+}
+.textR
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align:right;
+    color: #333333;
+ 
+}
+.TextHeder
+{
+ font-family :Verdana;
+ font-size:small;
+ font-weight :bold ;
+ color :White;
+ text-align :center;	
+}
+
+.TitleImage
+{
+ background-image:url(../images/BarColombia.jpg);
+ text-align:center;
+  background-repeat :no-repeat ;
+}
+
+.TitleImageUCHeder
+{
+ background-image:url(../images/BarColombia.jpg);
+ text-align:center;
+background-repeat :no-repeat ;
+}
+
+.TitleImageScript
+{
+	text-align: right;
+	background-repeat: no-repeat;
+	background-image: url('../images/BarColombiaScript.jpg');
+}
+
+
+.UpperCase
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: inherit;
+    color: #333333;
+    vertical-align: middle;
+    text-indent: inherit;
+    text-transform:uppercase;
+}
+
+.error
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: left;
+    color: #FF0000;
+}
+.monto
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    vertical-align: middle;
+    text-align: right;
+}
+.modalBackground
+{
+    background-color: #999999;
+    filter: alpha(opacity=40);
+    opacity: 0.5;
+}
+.ModalWindow
+{
+    background-position: #f0f0f0;
+    border: thin solid #094fa4;
+    background: #f0f0f0;
+    padding: 0px10px10px10px;
+    position: absolute;
+    top: -1000px;
+}
+
+.MyCalendar .ajax__calendar_container {
+    border:2px solid #0000FF;    
+    background: white;
+    font-size:xx-small;
+    color: black;
+    z-index: inherit;
+}
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: gray;
+}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: red;
+    font-weight:bold;
+}
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color:Blue;
+    font-weight:bold;
+}
+
+.HdrCollapseImage
+{
+	
+	text-align: left;
+	cursor: pointer;
+	background-image:url(../images/imgCollapse.jpg);
+	background-repeat: no-repeat;
+}
+.HdrExpandImage
+{
+	
+	text-align: left;
+	cursor: pointer;
+	background-image:url(../images/imgExpand.jpg);
+	background-repeat: no-repeat;
+}
+ 
+ .GreenText
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: inherit;
+    color: #094fa4;
+    vertical-align: middle;
+    text-indent: inherit;
+}
+
+ .BorderStyle
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: inherit;
+    color: #000000;
+    vertical-align: middle;
+    text-indent: inherit;
+    border-width:1px;
+    border-style:solid;
+    border-color:LightBlue;
+} .style5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	color: #800000;
+}
+.style4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #000000;
+}
+.style3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: bolder;
+	color: #000000;
+}
+.MainTable
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #033893;
+	background-color: #92D2EE;
+}
+.ErrorMessage
+{
+	font-family: Verdana, Arial;
+	/*font-size: 8pt;*/
+	font-size: 14pt;
+	font-weight: bold;
+	color: red;
+}
+.GrayText 
+{
+	font-family: Verdana, Arial;
+	font-style: italic;
+	color: Gray;
+	font-size: 5pt;
+}
+.modalBackgroundDummy
+{
+
+	background-repeat: no-repeat;
+	background-position:center;
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+	 
+}
+
+.dataCellOne {
+	background-color: #E0ECF8; color: black;
+}
+.dataCellTwo {
+	background-color: white; color: black;
+}
+
+.emailHeader
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images/imgpopup.gif');
+    font-size: 11px;
+    text-align: inherit;
+    color: #000000;
+    vertical-align: middle;
+    text-indent: inherit;
+    border-width:1px;
+    border-style:solid;
+    border-color:LightBlue;
+}
+.textUpper
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: left;
+    color: #333333;
+    text-transform: uppercase;
+}
+.style8
+{   
+    text-align: Left;
+    font-size: small;    
+}
+.style9
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #333333;
+    vertical-align: middle;
+    text-indent: inherit;
+    background-color: silver;
+    font-weight: bold;
+}
+
+.style10
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #333333;
+    vertical-align: middle;
+    text-indent: inherit;
+    background-color: silver;
+    font-weight: normal;
+}
+
+.DatosHeader
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color: #333333;
+    vertical-align: middle;
+    text-indent: inherit;
+}
+
+
+/* Natalia Castro Inicio 22/11/2011*/
+.botonarchivo
+{
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: normal;
+    color: #335EB4;
+    background-color: #FFFFFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.DataGridStyle
+{
+    background-color: White;
+    font-family: Arial;
+    font-size: 9pt;
+    color: #000000;
+    border-color: White;
+}
+
+.FooterStyleDataGrid
+{
+    font-family: Arial;
+    font-size: 9pt;
+
+}
+
+.AlternatingItemStyleGrid
+{
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    color: #000000;
+}
+
+.ItemStyleGrid
+{
+    background-color: #E9E9E9;
+    border-color: White;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    color: #000000;
+    border-color: #FFFFFF;
+}
+
+
+.HeaderStyleGrid
+{
+    background-color: #5F8CB6;
+    font-family: Arial;
+    font-size: 9pt;
+    font-weight: bold;
+    color: White;
+}
+
+.textCantidad
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: right;
+    color: #333333;
+}
+.style9a
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #333333;
+    vertical-align: middle;
+    text-indent: inherit;
+    background-color: silver;
+    font-weight: bold;
+}
+.DatosHeaderA
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: left;
+    color: #333333;
+}
+.textTitle2
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: inherit;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-indent: inherit;
+}
+.textSubTitle
+{
+    padding: inherit;
+    margin: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: inherit;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-indent: inherit;
+    valign: top;
+    font-weight: 700;
+}
+
+
+/*Natalia Castro Fin 22/11/2011*/

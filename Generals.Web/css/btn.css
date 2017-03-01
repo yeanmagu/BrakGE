@@ -1,0 +1,228 @@
+﻿     .clear
+      {
+          clear:both;
+      }
+
+      .menu 
+      {
+         background: #464646; 
+         border-radius:0 !important;
+         font-size:10pt !important;
+         border-radius: 10px 10px 0px 0px !important;
+
+
+
+
+      }
+
+
+      .menu1
+      {
+           /*background: #c4c4c4;  Old browsers */
+         /*background: -moz-linear-gradient(top,  #c4c4c4 0%, #939393 100%);  FF3.6+ */
+          /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c4c4c4), color-stop(100%,#939393));  Chrome,Safari4+ */
+          /*background: -webkit-linear-gradient(top,  #c4c4c4 0%,#939393 100%);  Chrome10+,Safari5.1+ */
+          /*background: -o-linear-gradient(top,  #c4c4c4 0%,#939393 100%);  Opera 11.10+ */
+          /*background: -ms-linear-gradient(top,  #c4c4c4 0%,#939393 100%);  IE10+ */
+          /*background: linear-gradient(to bottom,  #c4c4c4 0%,#939393 100%);  W3C */
+          /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#939393',GradientType=0 );  IE6-9 */
+
+      }
+
+
+
+      .columns
+      {
+         
+      }
+
+      .titulo
+      {
+          font-family:'Adobe Song Std';
+          margin-top:10px;
+          color:#84adb4;
+          text-align:left;
+          width:920px;
+          border-bottom:thin solid #ccc;
+          margin-left:10px;      }
+
+ .enlace
+      {
+          display:block;
+          width:180px;
+          height:180px;
+          margin-top:10px;
+          
+      }
+      .enlace1
+      {
+          background:url("../Imagenes/btnadmin/asesoria.png");
+      }
+          .enlace1:hover
+          {
+              background:url("../Imagenes/btnadmin/asesoriah.png");
+          }
+
+      .enlace2
+      {
+          background:url("../Imagenes/btnadmin/asistencial.png");
+      }
+       .enlace2:hover
+          {
+              background:url("../Imagenes/btnadmin/asistencialh.png");
+          }
+
+      .enlace3
+      {
+          background:url("../Imagenes/btnadmin/enfermeria.png");
+      }
+       .enlace3:hover
+          {
+              background:url("../Imagenes/btnadmin/enfermeriah.png");
+          }
+
+      .enlace4
+      {
+          background:url("../Imagenes/btnadmin/emo.png");
+      }
+       .enlace4:hover
+          {
+              background:url("../Imagenes/btnadmin/emoh.png");
+          }
+
+
+       .enlace5
+      {
+          background:url("../Imagenes/btnadmin/ingresarEmpleado.png");
+      }
+          .enlace5:hover
+          {
+              background:url("../Imagenes/btnadmin/ingresarEmpleadoh.png");
+          }
+
+      .enlace6
+      {
+          background:url("../Imagenes/btnadmin/ingresarContratista.png");
+      }
+       .enlace6:hover
+          {
+              background:url("../Imagenes/btnadmin/ingresarContratistah.png");
+          }
+
+      .enlace7
+      {
+          background:url("../Imagenes/btnadmin/portal.png");
+      }
+       .enlace7:hover
+          {
+              background:url("../Imagenes/btnadmin/portalh.png");
+          }
+
+      .enlace8
+      {
+          background:url("../Imagenes/btnadmin/reportes.png");
+      }
+       .enlace8:hover
+          {
+              background:url("../Imagenes/btnadmin/reportesh.png");
+          }
+
+     .enlace9
+      {
+          background:url("../Imagenes/btnadmin/salir.png");
+      }
+       .enlace9:hover
+          {
+              background:url("../Imagenes/btnadmin/salirh.png");
+          }
+
+       .enlace10
+      {
+          background:url("../Imagenes/btnadmin/subirArchivo.png");
+      }
+       .enlace10:hover
+          {
+              background:url("../Imagenes/btnadmin/subirArchivoh.png");
+          }
+
+      .enlace11
+      {
+          background:url("../Imagenes/btnadmin/pacientes.png");
+      }
+       .enlace11:hover
+          {
+              background:url("../Imagenes/btnadmin/pacientesh.png");
+          }
+
+      .enlace12
+      {
+          background:url("../Imagenes/btnadmin/adminDatos.png");
+      }
+       .enlace12:hover
+          {
+              background:url("../Imagenes/btnadmin/adminDatosh.png");
+          }
+      .footer
+      {
+          background: #e93e58; /* Old browsers */
+            background: -moz-linear-gradient(top,  #e93e58 0%, #c0152f 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e93e58), color-stop(100%,#c0152f)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #e93e58 0%,#c0152f 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #e93e58 0%,#c0152f 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #e93e58 0%,#c0152f 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  #e93e58 0%,#c0152f 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e93e58', endColorstr='#c0152f',GradientType=0 ); /* IE6-9 */
+
+            height:40px;
+            font-family:'Adobe Song Std';
+            color:#fff;
+      }
+       .cuadro {
+            border-right:thin solid #b4b4b4;
+          
+        }
+
+       .contenedor {
+            border:thin solid #b4b4b4;
+            border-radius:5px;
+            
+        }
+
+        .title {
+            font-size:1.2em !important;
+        }
+
+/*botones de acordeon*/
+.view-div
+{
+    display:block;
+    width:24px;
+    height:24px;
+    float:right;
+}
+
+.ndown
+{
+    background:url("../Imagenes/icons/arrow-down-b.png");
+    
+}
+
+
+.nup
+{
+    background:url("../Imagenes/icons/arrow-up-b.png");
+    display:none;
+}
+
+
+.cabecera
+{
+    background: #4e60c5; /* Old browsers */
+            background: -moz-linear-gradient(top,  #4e60c5 0%, #2f44a3 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4e60c5), color-stop(100%,#2f44a3)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #4e60c5 0%,#2f44a3 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #4e60c5 0%,#2f44a3 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #4e60c5 0%,#2f44a3 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  #4e60c5 0%,#2f44a3 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e60c5', endColorstr='#2f44a3',GradientType=0 ); /* IE6-9 */
+}

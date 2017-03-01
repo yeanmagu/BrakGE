@@ -1,0 +1,66 @@
+Carga superior a la contratada	Aumento no autorizado de carga	Fraude- Tipo 1	No debe ser enviada este tipo de  irregularidad al contratista a cargo del proceso	Ninguno	Ninguno
+Servicio directo sin facturación (usuario no cliente)	Servicio Directo sin medidor	Anomalia- Tipo 1	Se procesa el acta	Censo de Carga	Carga Encontrada Medida/Capacidad del Transformador/Carga Contratada
+Servicio directo con facturacion estimada	Servicio Directo sin medidor	Anomalia- Tipo 1	se procesa el acta	Censo de Carga	Carga Encontrada Medida/Capacidad del Transformador/Carga Contratada
+Equipo no adecuado / no cumple norma	Medidor inapropiado para el sistema o la carga	Anomalia- Tipo 2	Se procesa el acta	Porcentaje de Error(30%)	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Medidor de 3 elementos conectado en 2 o 2 1/2 elementos	Anomalia- Tipo 2	Se espera consumo posterior, si aumenta se inicia proceso normal, se entiende desviación  con una diferencia del 20%    	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+Equipo de medida en mal estado	Medidor quemado	Anomalia- Tipo 2	Se hace análisis de los consumos antes y despues y si hay afloramiento se procesa el acta, si no se cierra improcedente	Censo de Carga	Carga Contratada
+	Medidor registra sin carga	Anomalia- Tipo 2	Se hace análisis de los consumos antes y despues y si hay afloramiento se procesa el acta, si no se cierra improcedente	Censo de Carga	Carga Contratada
+	Bornera del Medidor quemada	Anomalia- Tipo 2	Se hace análisis de los consumos antes y despues y si hay afloramiento se procesa el acta, si no se cierra improcedente	Censo de Carga	Carga Contratada
+	TC quemado	Anomalia- Tipo 2	Se hace análisis de los consumos antes y despues y si hay afloramiento se procesa el acta, si no se cierra improcedente	Censo de Carga	Carga Contratada
+	Medidor con error alto, según laboratorio	Anomalia- Tipo 2	se  procesa el acta	Porcentaje de Error	Censo de Carga/Carga Contratada
+Cambio de uso (tarifa inadecuada al tipo de cliente)	Predio de uso comercial, con tarifa residencial	Fraude - Tipo 1	Esta acta no debe ser enviadas a Irregularidades	Ninguno	Ninguno
+Reconexión no autorizada	Reconexión no autorizada	Fraude - Tipo 1	Esta acta no debe ser enviadas a Irregularidades	Ninguno	Ninguno
+Conexiones eléctricas - intervenidas (invertidas)	Señal de tensión desconectada	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Cable de señal en mal estado (abierto o aislamiento en mal estado)	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	TC con señal de corriente aislada (cortada)	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Puentes abiertos en Transformador de potencial	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada/Capacidad de Corriente del Transformador
+	Puentes aislados en transformador de potencial	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada/Capacidad de Corriente del Transformador
+	Fase Invertida en medidor 	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Fase Invertida en transformador	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada/Capacidad de Corriente del Transformador
+	Invertido neutro y fase	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Linea Amiga	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Capacidad de Corriente del conductor
+	Neutro manipulado	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Señal de corriente de un o varios TC puenteados	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada/Capacidad de Corriente del Transformador
+	TC con conexión invertida	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada/Capacidad de Corriente del Transformador
+	Cables de corriente cruzados o pelados	Fraude - Tipo 2	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+Equipo de Medida Adulterado	Bobina aislada	Fraude - Tipo 2	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Medidor con el disco frenado(manipulado)	Fraude - Tipo 2	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Medidor con el disco frenado daño	Anomalia- Tipo 2	El análisis es sobre la afectación en los consumos y se puede liquidar por cualquier método.	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Medidor con tapa verificadora perforada	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Medidor con elemento extraño internamente	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Integrador del medidor cambiado(manipulado)	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Integrador del medidor dañado	Anomalia- Tipo 2	El análisis es sobre la afectación en los consumos y se puede liquidar por cualquier método.	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Puente interno en la bobina de corriente del M.	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Disco del medidor doblado o corrido(manipulado)	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Disco del medidor doblado o corrido(daño fisico)	Anomalia- Tipo 2	El análisis es sobre la afectación en los consumos y se puede liquidar por cualquier método.	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Sin puentes tensión	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Puente tensión roto	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+	Integrador manipulado	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga encontrada Medida/Carga Contratada
+Acometida fraudulenta (El medidor registra parcialmente)	Conexión directa no autorizada	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Usuario con conexión directa, con medidor	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Servicio directo antes de equipo de medida (MI/ME)	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Acometida subterránea intervenida (Derivación)	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Derivación en acometida por  tubo	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Derivación en tablero de medidores	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Servicio a 120V, línea directa para 220V.	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+	Servicio a 220V, línea directa para trifásica	Fraude - Tipo 1	Se procesa el acta	Carga Encontrada	Censo de Carga/Carga Contratada
+Devolución de lecturas	Devolución de lecturas	Fraude - Tipo 2	Se procesa el acta	Censo de Carga	Porcentaje de Error en caso de retiro de medidor y tiene porcentaje de error/Carga Contratada
+Adulteración de Elementos de Seguridad	Sellos Tapa Verificadora (Medidor) repisados- Medidor Manipulado	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga Contratada
+	Sellos Tapa Verificadora (Medidor) repisados- Medidor conforme	Anomalia- Tipo 2	El análisis es sobre la afectación en los consumos y se puede liquidar por cualquier método.	Censo de Carga	Carga Encontrada Medida/Carga Contratada
+	Sellos Tapa a Verificadora violados- medidor manipulado	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga Contratada
+	Sin sellos Tapa Verificadora (Medidor retirado Manipulado)	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga Contratada
+	Sin sellos Tapa Verificadora (Medidor no retirado)	Anomalia- Tipo 2	Si el usuario no permitió el retiro del medidor se debe liquidar por cualquier método - si es solo por sellos sin una irregularidad y no amerita retirar el medidor es improcedente	Censo de Carga	Carga Encontrada Medida/Carga Contratada
+	Sellos de TC adulterados	Fraude - Tipo 2	Directriz Medida Especial	Liquidacion Medida Especial	
+	Sellos de TP adulterados	Fraude - Tipo 2	Directriz Medida Especial	Liquidacion Medida Especial	
+	Sellos de Bloque de Prueba adulterados	Fraude - Tipo 2	Directriz Medida Especial	Liquidacion Medida Especial	
+	Sellos de celda de medida adulterados	Fraude - Tipo 2	Directriz Medida Especial	Liquidacion Medida Especial	
+Daño o retiro de los equipos de medida	Medidor retirado por particulares	Fraude - Tipo 2	Se procesa el acta(reporte del usuario donde indica robo del medidor)	Censo de Carga	Carga Encontrada Medida/Capacidad del Transformador/Carga Contratada
+	Daño físico del medidor(manipulación)	Fraude - Tipo 2	Se procesa el acta	Porcentaje de Error	Censo de Carga/Carga Contratada/Carga Encontrada Medida
+	Daño físico del medidor por desperfecto o tiempo	Anomalia- Tipo 2	El análisis es sobre la afectación en los consumos y se puede liquidar por cualquier método.	Porcentaje de Error	Censo de Carga/Carga Contratada/Carga Encontrada Medida
+	Medidor con el vidrio roto resultado conforme	Anomalia- Tipo 2	improcedente	Ninguno	
+	Medidor con el vidrio roto(manipulado)	Fraude - Tipo 2	Se procesa el acta	Censo de Carga	Porcentaje de Error/Carga Contratada/Carga Encontrada Medida
+	Medidor volteado, inclinado   sin retiro del medidor	Fraude - Tipo 2	Se procesa el acta	Censo de Carga	Porcentaje de Error prueba en terreno/Carga Contratada/Carga Encontrada Medida
+	Medidor volteado, inclinado   con retiro del medidor	Fraude - Tipo 2	Se procesa el acta	Censo de Carga	Porcentaje de Error Laboratorio/Carga Contratada/Carga Encontrada Medida
+	Medidor trasladado por particulares	Fraude - Tipo 2	Se procesa el acta	Censo de Carga	Carga Encontrada Medida/Carga Contratada
+	Medidor golpeado(con retiro medidor resultado manipulado)	Fraude - Tipo 2	Se procesa el acta	Censo de Carga	Porcentaje de Error Laboratorio/Carga Contratada/Carga Encontrada Medida
+	Medidor golpeado(sin retiro medidor  y/o resultado conforme)	Anomalia- Tipo 2	El análisis es sobre la afectación en los consumos y se puede liquidar por cualquier método.	Porcentaje de Error	Censo de Carga/Carga Contratada/Carga Encontrada Medida

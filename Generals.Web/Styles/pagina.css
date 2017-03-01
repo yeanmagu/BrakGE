@@ -1,0 +1,634 @@
+﻿
+body
+{
+    color:#333333 !important;
+    font-family: 'Trebuchet MS' !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+}
+.cab
+{
+    text-align:left;
+    
+    border-bottom:thin solid #bfbfbf;
+    padding-top:10px;
+    
+
+}
+/*table {
+    width:100% !important;
+}*/
+
+.icons, .icons2
+{
+    float:right;
+    display:block;
+    background:url("../Imagenes/icons/pacientes-btn.png");
+    width:30px;
+    height:30px;
+    margin-right:5px;   
+}
+
+.icons2
+{
+    float:none;
+    width:81px;
+    height:81px;
+}
+
+.columns
+{
+    color:#333333;
+}
+
+.pacientes
+{
+     background:url("../Imagenes/icons/pacientes-btn.png");
+}
+.pacientes:hover
+{
+     background:url("../Imagenes/icons/pacientesh-btn.png");
+     background-size:100%;
+}
+
+
+.home
+{
+     background:url("../Imagenes/icons/home-btn.png");
+}
+.home:hover
+{
+    background:url("../Imagenes/icons/homeh-btn.png");
+    background-size:100%;
+}
+
+.salir
+{
+    background:url("../Imagenes/icons/salir-btn.png");
+    
+}
+.salir:hover
+{
+    background:url("../Imagenes/icons/salirh-btn.png");
+    background-size:100%;
+}
+
+/*botones ocupacionales*/
+
+.antPersonal
+{
+    background:url("../Imagenes/Ocupacional/ant-personales.png");
+}
+
+.antPersonal:hover
+{
+    background:url("../Imagenes/Ocupacional/ant-personalesh.png");
+}
+
+/*Patologicos*/
+.antPatologico
+{
+    background:url("../Imagenes/Ocupacional/patologia.png");
+}
+.antPatologico:hover
+{
+    background:url("../Imagenes/Ocupacional/patologiah.png");
+}
+
+
+/*ACcidente de trabajo*/
+.antGineco
+{
+    background:url("../Imagenes/Ocupacional/gineco.png") !important;
+}
+.antGineco:hover
+{
+    background:url("../Imagenes/Ocupacional/ginecoh.png") !important;
+}
+
+/*falta este*/
+.antInmuniza
+{
+    background:url("../Imagenes/Ocupacional/inmunizacion.png");
+}
+.antInmuniza:hover
+{
+    background:url("../Imagenes/Ocupacional/inmunizacionh.png");
+}
+
+.antFobias
+{
+    background:url("../Imagenes/Ocupacional/habitofobias.png");
+}
+
+.antFobias:hover
+{
+    background:url("../Imagenes/Ocupacional/habitofobiash.png");
+}
+
+.antHeredofami
+{
+    background:url("../Imagenes/Ocupacional/heredofamiliares.png");
+}
+
+.antHeredofami:hover
+{
+    background:url("../Imagenes/Ocupacional/heredofamiliaresh.png");
+}
+
+.revisionSis
+{
+    background:url("../Imagenes/Ocupacional/revisionsistema.png");
+}
+.revisionSis:hover
+{
+    background:url("../Imagenes/Ocupacional/revisionsistemah.png");
+}
+.exafisico
+{
+    background:url("../Imagenes/Ocupacional/examenfisico.png");
+}
+.exafisico:hover
+{
+    background:url("../Imagenes/Ocupacional/examenfisicoh.png");
+}
+.exploracion
+{
+    background:url("../Imagenes/Ocupacional/explorfuncional.png");
+}
+.exploracion:hover
+{
+    background:url("../Imagenes/Ocupacional/explorfuncionalh.png");
+}
+.exaparaclinico
+{
+    background:url("../Imagenes/Ocupacional/examenesparacli.png");
+}
+.exaparaclinico:hover
+{
+    background:url("../Imagenes/Ocupacional/examenesparaclih.png");
+}
+
+
+.conceptofin
+{
+    background:url("../Imagenes/Ocupacional/conceptofinal.png");
+}
+.conceptofin:hover
+{
+    background:url("../Imagenes/Ocupacional/conceptofinalh.png");
+}
+
+.baudiometria
+{
+    background:url("../Imagenes/Ocupacional/audiometria.png");
+}
+.baudiometria:hover
+{
+    background:url("../Imagenes/Ocupacional/audiometriah.png");
+}
+.bespirometria
+{
+    background:url("../Imagenes/Ocupacional/espirometria.png");
+}
+.bespirometria:hover
+{
+    background:url("../Imagenes/Ocupacional/espirometriah.png");
+}
+.rxtorax
+{
+    background:url("../Imagenes/Ocupacional/rctorax.png");
+}
+.rxtorax:hover
+{
+    background:url("../Imagenes/Ocupacional/rctoraxh.png");
+}
+.visiometria
+{
+    background:url("../Imagenes/Ocupacional/visiometria.png");
+}
+.visiometria:hover
+{
+    background:url("../Imagenes/Ocupacional/visiometriah.png");
+}
+.laboratorio
+{
+    background:url("../Imagenes/Ocupacional/laboratorio.png");
+}
+.laboratorio:hover
+{
+    background:url("../Imagenes/Ocupacional/laboratorioh.png");
+}
+.electros
+{
+    background:url("../Imagenes/Ocupacional/electro.png");
+}
+.electros:hover
+{
+    background:url("../Imagenes/Ocupacional/electroh.png");
+}
+.rnm
+{
+    background:url("../Imagenes/Ocupacional/nuclear.png");
+}
+.rnm:hover
+{
+    background:url("../Imagenes/Ocupacional/nuclearh.png");
+}
+.psa
+{
+    background:url("../Imagenes/Ocupacional/antigeno.png");
+}
+.psa:hover
+{
+    background:url("../Imagenes/Ocupacional/antigenoh.png");
+}
+.columns
+{
+}
+
+
+.ocupacional
+{
+    font-size:small;
+    text-align:center !important;
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+.required
+        {
+            color:red;
+        }
+        .cabecera
+        {
+            background:#747474 !important;
+            border:1px solid #D4D4D4;
+        }
+
+        
+
+        
+        
+
+        
+        
+        
+        /*aqui*/  
+        .historial, .diagnostico
+        {
+            width:920px;
+            height:auto;
+          /*display:none;*/
+	        /*float: left;*/
+	        font-size: 1.2em;
+	        /*position: fixed;*/
+	        /*top: -50%; */
+	        /*margin-left:10px;*/
+
+	        z-index: 1;
+        }   
+
+
+
+         
+    
+        
+        .Validadores
+        {
+            color:#333333 !important;
+        }
+         
+       
+
+
+        .cuerpo
+        {
+            box-shadow:none;
+            border-left:thin solid #D4D4D4;
+            border-right:thin solid #D4D4D4;
+        }
+
+
+
+        table
+        {
+            border:none !important;
+        }
+
+
+/*----------------------------------------------------------*/
+
+
+
+
+
+.view-div
+{
+    display:block;
+    width:24px;
+    height:24px;
+    float:right;
+}
+
+.ndown
+{
+    display:none;
+    background:url("../Imagenes/icons/arrow-down.png");
+   
+}
+
+.nup
+{
+    background:url("../Imagenes/icons/arrow-up.png");
+     
+}
+
+
+
+/*----------------------------------------------------------*/
+/*Elementos*/
+
+.bordes
+{
+    border:thin solid #D4D4D4  !important;
+}
+
+
+/*-----------------------------------
+
+    td input
+    {
+            margin:0 !important;
+    }
+
+er-bottom:thin solid #bfbfbf !important;
+}
+
+
+
+
+.input
+{
+    vertical-align:central !important;
+     padding:0px !important;
+}
+
+.text-tables
+{
+    text-align:center !important;
+}
+
+.cab-silver
+{
+    background:#eee;
+    color:#333;
+    font-size:10pt;
+}
+
+/*botones de la pagina de pacientes*/
+
+.btnn {
+    background-repeat:no-repeat !important;
+}
+.ingresados
+{
+    background:url("../Botones/triagei.png");
+    background-size:100%;
+}
+.atendidos
+{
+    background:url("../Botones/triageii.png");
+    background-size:100%;
+    
+}
+.espera
+{
+    background:url("../Botones/triageiii.png");
+    background-size:100%;
+    
+}
+
+.triage4 {
+     background:url("../Botones/triageiv.png");
+    background-size:100%;
+}
+
+.triage5 {
+     background:url("../Botones/triagev.png");
+    background-size:100%;
+}
+
+.noatendido {
+        background:url("../Botones/noatendidos.png");
+    background-size:100%;
+}
+
+
+.iconos td
+{
+    border:thin solid #d9d9d9 !important;
+    
+}
+.icon
+{
+    float:left;
+}
+.text
+{
+    font-size:8pt;
+    color:#000 !important;
+    margin-left:3px;
+}
+
+.botoms
+{
+    margin-left:3px !important;
+}
+
+/*borde de las tablas*/
+
+table {
+    background: none !important;
+}
+
+td input
+{
+            margin-left: 0 !important;
+    margin-right: 0 !important;
+    
+}
+
+td input
+{
+            margin-left: 0 !important;
+    margin-right: 0 !important;
+    }
+/*sin bordes*/
+.noborde
+{
+    border: none !important;
+    border-bottom: none !important;
+    border-top:none !important;
+    border-left:none !important;
+    border-right:none !important;
+}
+
+/*quitar borde superior*/
+.notop
+{
+    border-top:none ;
+}
+.nobottom
+{
+    border-bottom:none ;
+}
+
+
+
+
+
+/*campos*/
+ input
+ {
+     font-size:12px !important;
+     
+ }
+    
+  /*columnas*/
+  .primera
+        {
+      
+            width: 115px !important;
+        }
+        .segunda
+        {
+            width: 310px !important;
+           
+        }
+        .tercera
+        {
+}
+        .cuarta
+        {
+}
+
+.titulos {
+    
+}
+
+.selected {
+    background-color:#ededed;
+    color:#333333 !important;
+    
+}      
+ input
+{
+     font-style:normal !important;
+     font-family:'Trebuchet MS' !important;
+}
+
+ .textarea
+        {
+            resize:vertical !important;
+        }
+
+
+.grilla {
+    
+}
+.styled-select2 {
+           height: 25px;
+           overflow: hidden;
+           background: url(../Imagenes/icons/expand22.png) no-repeat right ;
+           background-size: 20px 16px;
+           border:thin solid #CCC;
+           height: 24px !important;
+           border:thin solid gray;
+           
+           }
+.styled-select {
+           height: 25px;
+           overflow: hidden;
+           background: url(../Imagenes/icons/expand22.png) no-repeat right ;
+           background-size: 20px 16px;
+           border:thin solid #CCC;
+           height: 24px !important;
+           border:thin solid inherit;
+           
+           }
+
+        .styled-select select {
+           border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    background: url('../Imagenes/icons/expand22.png') no-repeat right 50% !important;
+    font-size: 11px;
+           padding:0px;
+           line-height: 1;
+           border-radius: 0;
+           -webkit-appearance: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+
+.validador {
+    width:300px !important;
+    margin:0 !important;
+    background:#eae611 !important;
+    color:#ffffff !important;
+}
+
+
+.styled-select1 {
+           height: 25px;
+           overflow: hidden;
+           background: url(../Imagenes/icons/expand22.png) no-repeat right ;
+           background-size: 20px 16px;
+           border:thin solid red;
+           height: 24px !important;
+           
+           }
+
+
+        .styled-select1 select {
+           border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    background: url('../Imagenes/icons/expand22.png') no-repeat right 50% !important;
+    font-size: 11px;
+           padding:0px;
+           line-height: 1;
+           border-radius: 0;
+           -webkit-appearance: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.btn {
+       width:143px !important;
+}
+
+                
+        
+/*-------Ocultando los div a la carga del formulario---------*/
+
+.ocultar{
+    display:block;
+}
+
+.btnsearch {
+    width:24px;
+    height:25px;
+}

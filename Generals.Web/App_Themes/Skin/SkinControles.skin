@@ -1,0 +1,6 @@
+<%--BUTON--%>
+
+<%--<asp:Button runat="server" CssClass="btn btn-default" style="cursor:pointer;"   >
+</asp:Button>--%>
+<%--BUTON--%>
+<asp:GridView runat="Server" CssClass="table table-striped table-bordered dataTable no-footer dtr-inlin" ></asp:GridView>

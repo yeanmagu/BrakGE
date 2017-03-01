@@ -1,0 +1,205 @@
+FORMA DE INVENTARIO MC BY MARY CRUZ																																																																																																									
+CODIGO	DESCRIPCION	PRECIO COMPRA	PRECIO VENTA	CATEGORIA	SUBCATEGORIA	DESCUENTO	CANTIDAD MINIMA	CANTIDAD MAXIMA	COLOR	MODELO	TALLA	MARCA	CANTIDAD EXISTENTE	PROVEEDOR	COMISION POR VENTA	REFERENCIA PROVEEDOR																																																																																									
+CPZ-001	PUNTAS AZUL JEAN PLATA	94149	195000	3006	3020				AZUL 	PUNTAS	35	CLAPE	1	2014	17.5	3708																																																																																									
+CPZ-002	PUNTAS ROJAS 	83430	165000	3006	3020				ROJO	PUNTAS	36	CLAPE	1	2014	17.5	3859																																																																																									
+CPZ-003	SANDALIAS PLANAS PLATA	74250	150000	3006	3020				PLATA	PLANAS	38	CLAPE	2	2014	17.5	1081																																																																																									
+MYPZ-001	SANDALIAS PLATAFORMA MIEL 	63720	125000	3006	3020				MIEL	PLATAFORMAS	38	MIEL Y PIMIENTA	1	2015	17.5	918																																																																																									
+MYPZ-001	SANDALIAS PLATAFORMA MIEL 	63720	125000	3006	3020				MIEL	PLATAFORMAS	39	MIEL Y PIMIENTA	1	2015	17.5	918																																																																																									
+MYPZ-002	SANDALIAS PLATAFORMA LIMON	63720	125000	3006	3020				LIMON	PLATAFORMAS	38	MIEL Y PIMIENTA	1	2015	17.5	922																																																																																									
+MYPZ-003	SANDALIAS ORO SUECO CON TACÓN	75600	150000	3006	3020				ORO	TACON	39	MIEL Y PIMIENTA	1	2015	17.5	951																																																																																									
+BLZ-001	SUECOS NEGROS	58500	130000	3006	3020				NEGRAS	TACON	36	BEALA	1	2016	17.5	1016																																																																																									
+BLZ-001	SUECOS NEGROS	58500	130000	3006	3020				NEGRAS	TACON	37	BEALA	2	2016	17.5	1016																																																																																									
+BLZ-002	SUECOS ORO	58500	130000	3006	3020				ORO	TACON	40	BEALA	1	2016	17.5	1016																																																																																									
+BLZ-003	SANDALIAS PLATAFORMAS ALTAS AZULES CON YUTE	74700	150000	3006	3020				AZUL	PLATAFORMAS	36	BEALA	1	2016	17.5	901																																																																																									
+BLZ-004	SANDALIAS ALTAS BLANCO PLATA	74700	150000	3006	3020				BLANCO PLATA	TACON	35	BEALA	1	2016	17.5	1050																																																																																									
+BLZ-005	SANDALIAS PLANAS VERDES	55800	115000	3006	3020				VERDE 	PLANAS	35	BEALA	1	2016	17.5	831																																																																																									
+BLZ-006	MOCASINES ORO	63000	130000	3006	3020				ORO	MOCASINES	36	BEALA	1	2016	17.5	M14																																																																																									
+BLZ-007	SANDALIAS ALTAS COCO	74700	150000	3006	3020				COCO	PLATAFORMAS	36	BEALA	1	2016	17.5	L-335																																																																																									
+BLZ-007	SANDALIAS ALTAS COCO	74700	150000	3006	3020				COCO	PLATAFORMAS	39	BEALA	1	2016	17.5	L-335																																																																																									
+BLZ-008	MOCASINES ROJOS	63000	130000	3006	3020				ROJAS	MOCASINES	40	BEALA	1	2016	17.5	M14																																																																																									
+BLZ-009	SANDALIAS PLATAFORMAS ALTAS ROJAS CON YUTE	74700	150000	3006	3020				ROJAS	PLATAFORMAS	36	BEALA	1	2016	17.5	901																																																																																									
+DVZ-001	SUECOS PLATATAFORMAS ALTAS ROJAS CON YUTE	79050	160000	3006	3020				ROJAS	PLATAFORMAS	35	DIEGO VALDERRAMA	1	2020	17.5	11526																																																																																									
+DVZ-001	SUECOS PLATATAFORMAS ALTAS ROJAS CON YUTE	79050	160000	3006	3020				ROJAS	PLATAFORMAS	39	DIEGO VALDERRAMA	1	2020	17.5	11526																																																																																									
+DVZ-002	SUECOS PLATATAFORMAS ALTAS DORADOS LAZO CON YUTE	79050	160000	3006	3020				DORADOS	PLATAFORMAS	35	DIEGO VALDERRAMA	2	2020	17.5	10804																																																																																									
+DVZ-003	SANDALIAS ORO ROMANAS	69750	145000	3006	3020				ORO	PLANAS	40	DIEGO VALDERRAMA	1	2020	17.5	11275																																																																																									
+DVZ-004	SUECOS PLATAFORMAS ALTAS AZUL CON YUTE 	79050	160000	3006	3020				AZUL	PLATAFORMAS	36	DIEGO VALDERRAMA	1	2020	17.5	11526																																																																																									
+DVZ-004	SUECOS PLATAFORMAS ALTAS AZUL CON YUTE 	79050	160000	3006	3020				AZUL	PLATAFORMAS	40	DIEGO VALDERRAMA	1	2020	17.5	11526																																																																																									
+MCZ-001	ZAPATOS  BAJOS EN PUNTAS AMARILLO LIMON	71910	150000	3006	3020				AMARILLO LIMÓN	PUNTAS	39	MARI CRUZ	2	2018	17.5	6362																																																																																									
+MCZ-002	ZAPATOS BAJOS EN PUNTAS NEGRAS	71910	150000	3006	3020				NEGRAS	PUNTAS	37	MARI CRUZ	1	2018	17.5	6165																																																																																									
+MCZ-003	SANDALIAS PLANAS NEGRAS TRENZADAS	57600	120000	3006	3020				NEGRAS	PLANAS	37	MARI CRUZ	2	2018	17.5	6173																																																																																									
+MCZ-003	SANDALIAS PLANAS NEGRAS TRENZADAS	57600	120000	3006	3020				NEGRAS	PLANAS	38	MARI CRUZ	2	2018	17.5	6173																																																																																									
+MCZ-004	SANDALIAS ALTAS VERDE LIMA	81900	165000	3006	3020				VERDE LIMA	TACON	35	MARI CRUZ	1	2018	17.5	6784																																																																																									
+MCZ-005	ZAPATOS BAJOS EN PUNTAS MIEL ANIMAL PRINT	74700	145000	3006	3020				MIEL 	PUNTAS	35	MARI CRUZ	1	2018	17.5	6174																																																																																									
+JKAZ-001	ZAPATOS BAJOS EN PUNTAS MIEL	71910	150000	3006	3020				MIEL	PUNTAS	35	JACKELINE ACEVEDO	1	2018	17.5	6120																																																																																									
+JKAZ-002	SANDALIAS ORO SUELA PLAYA	73800	150000	3006	3020				ORO	PLANAS	37	JACKELINE ACEVEDO	1	2018	17.5	6201																																																																																									
+MPZ-001	SANDALIAS OSTRA ORO ROMANAS	72500	145000	3006	3020				ORO	PLANAS	36	MARISOL PRADA	1	2027	17.5	1634																																																																																									
+SKZ-001	SANDALIAS NEGRAS TACON ROMANA	103400	195000	3006	3020				NEGRAS	TACON	36	SIUK	1	2019	17.5	1256																																																																																									
+SKZ-002	SANDALIAS NUDE ALTAS	99360	195000	3006	3020				NUDE	TACON	37	SIUK	1	2019	17.5	1297																																																																																									
+SKZ-003	SANDALIAS ALMENDRA ALTAS	97060	195000	3006	3020				ALMENDRA	TACON	39	SIUK	1	2019	17.5	1267																																																																																									
+SKZ-004	BALETAS ROMO PLATA	80000	90000	3006	3020				PLATA	BALETAS	35	SIUK	1	2019	17.5	S01	PROMO																																																																																								
+KPZ-001	SANDALIAS ORO SEMI MATE ALTAS	79920	155000	3006	3020				ORO	PLATAFORMAS	36	KATTHY POY	1	2026	17.5	K-1684																																																																																									
+KPZ-002	SANDALIAS BLANCAS CON FLORES EN CUERO	85320	165000	3006	3020				BLANCO	PLATAFORMAS	38	KATHY POY	1	2026	17.5	K1963																																																																																									
+KPZ-002	SANDALIAS BLANCAS CON FLORES EN CUERO	85320	165000	3006	3020				BLANCO	PLATAFORMAS	39	KATHY POY	1	2026	17.5	K1963																																																																																									
+KPZ-003	SANDALIAS PLANAS BLANCAS EN CUERO	74520	145000	3006	3020				BLANCO	PLANAS	39	KATHY POY	1	2026	17.5	K-1915																																																																																									
+KPZ-004	SANDALIAS PLANAS  NEGRAS EN CUERO	74520	145000	3006	3020				NEGRAS	PLANAS	36	KATHY POY	1	2026	17.5	K-1915																																																																																									
+KPZ-004	SANDALIAS PLANAS NEGRAS EN CUERO	74520	145000	3006	3020				NEGRAS	PLANAS	37	KATHY POY	1	2026	17.5	K-1915																																																																																									
+KPZ-004	SANDALIAS PLANAS NEGRAS EN CUERO 	74520	145000	3006	3020				NEGRAS	PLANAS	38	KATHY POY	1	2026	17.5	K-1915																																																																																									
+KPZ-004	SANDALIAS PLANAS NEGRAS EN CUERO	74520	145000	3006	3020				NEGRAS	PLANAS	39	KATHY POY	1	2026	17.5	K-1915																																																																																									
+PKZ-001	BALETAS ROJAS INFANTIL	37800	75000	3007	3025				ROJAS	BALETAS	23	PINK GIRLS	1	2021	17.5	10-362																																																																																									
+PKZ-001	BALETAS ROJAS INFANTIL	37800	75000	3007	3025				ROJAS	BALETAS	24	PINK GIRLS	2	2021	17.5	10-362																																																																																									
+PKZ-001	BALETAS ROJAS INFANTIL	37800	75000	3007	3025				ROJAS	BALETAS	25	PINK GIRLS	2	2021	17.5	10-362																																																																																									
+PKZ-001	BALETAS ROJAS INFANTIL	37800	75000	3007	3025				ROJAS	BALETAS	26	PINK GIRLS	2	2021	17.5	10-362																																																																																									
+PKZ-001	BALETAS ROJAS INFANTIL	37800	75000	3007	3025				ROJAS	BALETAS	27	PINK GIRLS	2	2021	17.5	10-362																																																																																									
+PKZ-002	BALETAS DORADAS INFANTIL	37800	75000	3007	3025				DORADAS	BALETAS	23	PINK GIRLS	1	2021	17.5	10-364																																																																																									
+PKZ-002	BALETAS DORADAS INFANTIL	37800	75000	3007	3025				DORADAS	BALETAS	24	PINK GIRLS	1	2021	17.5	10-364																																																																																									
+PKZ-002	BALETAS DORADAS INFANTIL	37800	75000	3007	3025				DORADAS	BALETAS	26	PINK GIRLS	2	2021	17.5	10-364																																																																																									
+PKZ-002	BALETAS DORADAS INFANTIL	37800	75000	3007	3025				DORADAS	BALETAS	29	PINK GIRLS	2	2021	17.5	10-364																																																																																									
+PKZ-003	BALETAS AZUL LAZO MIEL INFANTIL	37800	75000	3007	3025				AZUL	BALETAS	23	PINK GIRLS	2	2021	17.5	10-373																																																																																									
+PKZ-003	BALETAS AZUL LAZO MIEL INFANTIL	37800	75000	3007	3025				AZUL	BALETAS	24	PINK GIRLS	1	2021	17.5	10-373																																																																																									
+PKZ-003	BALETAS AZUL LAZO MIEL INFANTIL	37800	75000	3007	3025				AZUL	BALETAS	25	PINK GIRLS	2	2021	17.5	10-373																																																																																									
+PKZ-003	BALETAS AZUL LAZO MIEL INFANTIL	37800	75000	3007	3025				AZUL	BALETAS	26	PINK GIRLS	1	2021	17.5	10-373																																																																																									
+PKZ-003	BALETAS AZUL LAZO MIEL INFANTIL	37800	75000	3007	3025				AZUL	BALETAS	28	PINK GIRLS	1	2021	17.5	10-373																																																																																									
+PKZ-003	BALETAS AZUL LAZO MIEL INFANTIL	37800	75000	3007	3025				AZUL	BALETAS	29	PINK GIRLS	1	2021	17.5	10-373																																																																																									
+PKZ-004	SANDALIAS NEGRO MIEL INFANTIL	32400	65000	3007	3025				NEGRO MIEL	PLANAS	24	PINK GIRLS	1	2021	17.5	9-415																																																																																									
+PKZ-004	SANDALIAS NEGRO MIEL INFANTIL	32400	65000	3007	3025				NEGRO MIEL	PLANAS	25	PINK GIRLS	1	2021	17.5	9-415																																																																																									
+PKZ-004	SANDALIAS NEGRO MIEL INFANTIL	32400	65000	3007	3025				NEGRO MIEL	PLANAS	26	PINK GIRLS	1	2021	17.5	9-415																																																																																									
+PKZ-004	SANDALIAS NEGRO MIEL INFANTIL	32400	65000	3007	3025				NEGRO MIEL	PLANAS	27	PINK GIRLS	1	2021	17.5	9-415																																																																																									
+PKZ-004	SANDALIAS NEGRO MIEL INFANTIL	32400	65000	3007	3025				NEGRO MIEL	PLANAS	29	PINK GIRLS	1	2021	17.5	9-415																																																																																									
+PKZ-005	SANDALIAS ROJAS INFANTIL	32400	65000	3007	3025				ROJO	PLANAS	24	PINK GIRLS	1	2021	17.5	9-409																																																																																									
+PKZ-005	SANDALIAS ROJAS INFANTIL	32400	65000	3007	3025				ROJO	PLANAS	26	PINK GIRLS	2	2021	17.5	9-409																																																																																									
+PKZ-005	SANDALIAS ROJAS INFANTIL	32400	65000	3007	3025				ROJO	PLANAS	28	PINK GIRLS	1	2021	17.5	9-409																																																																																									
+PKZ-006	SANDALIAS DORADAS CON BEIGE INFANTIL	32400	65000	3007	3025				DORADOS	PLANAS	25	PINK GIRLS	1	2021	17.5	9-375																																																																																									
+PKZ-007	SANDALIAS DORADAS INFANTIL	32400	65000	3007	3025				DORADOS	PLANAS	25	PINK GIRLS	1	2021	17.5	9-386																																																																																									
+PKZ-007	SANDALIAS DORADAS INFANTIL	32400	65000	3007	3025				DORADOS	PLANAS	28	PINK GIRLS	2	2021	17.5	9-386																																																																																									
+PKZ-008	BALETAS DORADAS INFANTIL	32400	75000	3007	3025				DORADAS	BALETAS	22	PINK GIRLS	1	2021	17.5	10-376																																																																																									
+PKZ-008	BALETAS DORADAS INFANTIL	32400	75000	3007	3025				DORADAS	BALETAS	23	PINK GIRLS	1	2021	17.5	10-376																																																																																									
+PKZ-008	BALETAS DORADAS INFANTIL	32400	75000	3007	3025				DORADAS	BALETAS	26	PINK GIRLS	1	2021	17.5	10-376																																																																																									
+PKZ-009	SANDALIAS PLATA INFANTIL	32400	65000	3007	3025				PLATA	PLANAS	23	PINK GIRLS	1	2021	17.5	9-403																																																																																									
+PKZ-009	SANDALIAS PLATA INFANTIL	32400	65000	3007	3025				PLATA	PLANAS	24	PINK GIRLS	1	2021	17.5	9-403																																																																																									
+PKZ-009	SANDALIAS PLATA INFANTIL 	32400	65000	3007	3025				PLATA	PLANAS	26	PINK GIRLS	1	2021	17.5	9-403																																																																																									
+PKZ-010	BALETAS BLANCO PLATA INFANTIL	37800	75000	3007	3025				PLATA	BALETAS	25	PINK GIRLS	2	2021	17.5	10-375																																																																																									
+PKZ-010	BALETAS BLANCO PLATA INFANTIL	37800	75000	3007	3025				PLATA	BALETAS	26	PINK GIRLS	1	2021	17.5	10-375																																																																																									
+PKZ-010	BALETAS BLANCO PLATA INFANTIL	37800	75000	3007	3025				PLATA	BALETAS	28	PINK GIRLS	1	2021	17.5	10-375																																																																																									
+PKZ-011	BALETAS PLATA INFANTIL	37800	75000	3007	3025				PLATA	BALETAS	26	PINK GIRLS	1	2021	17.5	10-366																																																																																									
+PKZ-012	BALETAS FUCSIA JUNIOR	43200	85000	3007	3025				FUCSIA	BALETAS	31	PINK GIRLS	2	2021	17.5	12-382																																																																																									
+PKZ-012	BALETAS FUCSIA JUNIOR	43200	85000	3007	3025				FUCSIA	BALETAS	35	PINK GIRLS	1	2021	17.5	12-382																																																																																									
+PKZ-013	SANDALIAS ARENA JUNIOR	36000	75000	3007	3025				ARENA	PLANAS	30	PINK GIRLS	2	2021	17.5	11-319																																																																																									
+PKZ-013	SANDALIAS ARENA JUNIOR	36000	75000	3007	3025				ARENA	PLANAS	36	PINK GIRLS	2	2021	17.5	11-319																																																																																									
+PKZ-014	SANDALIAS DORADO MIEL JUNIOR	36000	75000	3007	3025				DORADO MIEL	PLANAS	35	PINK GIRLS	1	2021	17.5	11-253																																																																																									
+PKZ-015	SANDALIAS PLATA JUNIOR	36000	75000	3007	3025				PLATA	PLANAS	36	PINK GIRLS	1	2021	17.5	11-252																																																																																									
+PKZ-016	BALETAS PLATA INFANTIL MARIPOSAS 	36000	75000	3007	3025				PLATA	BALETAS	26	PINK GIRLS	1	2021	17.5	10-366																																																																																									
+PKZ-017	SANDALIAS DORADAS FLORECITAS JUNIOR	36000	75000	3007	3025				DORADO	PLANAS	36	PINK GIRLS	1	2021	17.5	11-272																																																																																									
+PKZ-018	BALETAS ROJAS JUNIOR	44550	90000	3007	3025				ROJO	BALETAS	36	PINK GIRLS	1	2021	17.5	12-420																																																																																									
+PKZ-019	SANDALIAS DORADAS JUNIOR	36000	75000	3007	3025				DORADO	BALETAS	30	PINK GIRLS	2	2021	17.5	12-422																																																																																									
+PKZ-019	SANDALIAS DORADAS JUNIOR	36000	75000	3007	3025				DORADO	BALETAS	32	PINK GIRLS	1	2021	17.5	11-307																																																																																									
+PKZ-020	SANDALIAS PLATA JUNIOR	36000	75000	3007	3025				PLATA	PLANAS	30	PINK GIRLS	1	2021	17.5	11-332																																																																																									
+PKZ-020	SANDALIAS PLATA JUNIOR	36000	75000	3007	3025				PLATA	PLANAS	31	PINK GIRLS	2	2021	17.5	11-332																																																																																									
+PKZ-021	SANDALIAS LAZO AZUL CON YUTE	32400	65000	3007	3025				AZUL MIEL	PLANAS	22	PINK GIRLS	1	2021	17.5	9-381																																																																																									
+PKZ-021	SANDALIAS LAZO AZUL CON YUTE	32400	65000	3007	3025				AZUL MIEL	PLANAS	23	PINK GIRLS	1	2021	17.5	9-381																																																																																									
+PKZ-021	SANDALIAS LAZO AZUL CON YUTE	32400	65000	3007	3025				AZUL MIEL	PLANAS	24	PINK GIRLS	2	2021	17.5	9-381																																																																																									
+PKZ-021	SANDALIAS LAZO AZUL CON YUTE	32400	65000	3007	3025				AZUL MIEL	PLANAS	25	PINK GIRLS	2	2021	17.5	9-381																																																																																									
+PKZ-021	SANDALIAS LAZO AZUL CON YUTE	32400	65000	3007	3025				AZUL MIEL	PLANAS	26	PINK GIRLS	1	2021	17.5	9-381																																																																																									
+PKZ-021	SANDALIAS LAZO AZUL CON YUTE	32400	65000	3007	3025				AZUL MIEL	PLANAS	27	PINK GIRLS	2	2021	17.5	9-381																																																																																									
+PKZ-022	BALETAS DORADAS JUNIOR	44550	90000	3007	3025				DORADAS	BALETAS	31	PINK GIRLS	2	2021	17.5	12-422																																																																																									
+PKZ-023	BALETAS PLATA JUNIOR 	44550	90000	3007	3025				PLATA	BALETAS	31	PINK GIRLS	2	2021	17.5	12-429																																																																																									
+PKZ-023	BALETAS PLATA JUNIOR 	44550	90000	3007	3025				PLATA	BALETAS	33	PINK GIRLS	1	2021	17.5	12-429																																																																																									
+PKZ-023	BALETAS PLATA JUNIOR 	44550	90000	3007	3025				PLATA	BALETAS	35	PINK GIRLS	2	2021	17.5	12-429																																																																																									
+PKZ-023	BALETAS PLATA JUNIOR 	44550	90000	3007	3025				PLATA	BALETAS	36	PINK GIRLS	1	2021	17.5	12-429																																																																																									
+PKZ-024	BALETAS ROJAS JUNIOR	44550	90000	3007	3025				ROJAS	BALETAS	31	PINK GIRLS	1	2021	17.5	12-429																																																																																									
+PKZ-024	BALETAS ROJAS JUNIOR	44550	90000	3007	3025				ROJAS	BALETAS	33	PINK GIRLS	1	2021	17.5	12-429																																																																																									
+PKZ-024	BALETAS ROJAS JUNIOR	44550	90000	3007	3025				ROJAS	BALETAS	34	PINK GIRLS	1	2021	17.5	12-429																																																																																									
+PKZ-024	BALETAS ROJAS JUNIOR	44550	90000	3007	3025				ROJAS	BALETAS	36	PINK GIRLS	1	2021	17.5	12-429																																																																																									
+PKZ-025	SANDALIAS TRENZADAS JUNIOR	36000	75000	3007	3025				AZUL ALMENDRA	PLANAS	30	PINK GIRLS	1	2021	17.5	11-294																																																																																									
+PKZ-025	SANDALIAS TRENZADAS JUNIOR	36000	75000	3007	3025				AZUL ALMENDRA	PLANAS	32	PINK GIRLS	2	2021	17.5	11-294																																																																																									
+PKZ-026	BALETAS AZUL REY JUNIOR	44550	90000	3007	3025				AZUL	BALETAS	31	PINK GIRLS	1	2021	17.5	12-397																																																																																									
+PKZ-026	BALETAS AZUL REY JUNIOR	44550	90000	3007	3025				AZUL	BALETAS	36	PINK GIRLS	1	2021	17.5	12-397																																																																																									
+PKZ-026	BALETAS AZUL REY JUNIOR	44550	90000	3007	3025				AZUL	BALETAS	38	PINK GIRLS	1	2021	17.5	12-397																																																																																									
+DÑZ-001	BALETAS ROJO LAZO INFANTIL	35100	70000	3007	3025				ROJOS	BALETAS	24	DISEÑOS	2	2022	17.5	M-114																																																																																									
+DÑZ-001	BALETAS ROJO LAZO INFANTIL	35100	70000	3007	3025				ROJOS	BALETAS	25	DISEÑOS	1	2022	17.5	M-114																																																																																									
+DÑZ-001	BALETAS ROJO LAZO INFANTIL	35100	70000	3007	3025				ROJOS	BALETAS	26	DISEÑOS	2	2022	17.5	M-114																																																																																									
+DÑZ-002	SANDALIAS PLATA TRENZADAS INFANTIL	35100	70000	3007	3025				PLATA	PLANAS	25	DISEÑOS	1	2022	17.5	0-123																																																																																									
+DÑZ-003	SANDALIAS BLANCO HUESO INFANTIL	35100	70000	3007	3025				BLANCO HUESO	PLANAS	25	DISEÑOS	1	2022	17.5	0-135																																																																																									
+DÑZ-004	BALETAS AZUL TURQUI JUNIOR	40950	85000	3007	3025				AZUL	BALETAS	33	DISEÑOS	1	2022	17.5	B-120																																																																																									
+DÑZ-005	BALETAS PUNTA BLANCO HUESO JUNIOR	40950	85000	3007	3025				BLANCO HUESO	BALETAS	34	DISEÑOS	1	2022	17.5	B-122																																																																																									
+ZHB-001	BOLSO DORADO GRANDE 	166500	335000	3006	3021				DORADO		NA	ZUHA	1	2023	17.5	2014																																																																																									
+ZHS-002	SOBRE ROJO EN CUERO	113050	225000	3006	3023				ROJO		NA	ZUHA	1	2023	17.5	2019																																																																																									
+ZHS-003	SOBRE GRANDE ORO CREMA 	113050	225000	3006	3023				ORO		NA	ZUHA	1	2023	17.5	1515																																																																																									
+ZHS-004	SOBRE GRANDE BLANCO	107500	215000	3006	3023				BLANCO		NA	ZUHA	1	2023	17.5	3333																																																																																									
+ZHPM-005	BILLETERA ROJA EN CUERO	71100	140000	3006	3024				ROJO	BILLETERAS	NA	ZUHA	1	2023	17.5	3335																																																																																									
+ZHS-006	SOBRE GRANDE CAFÉ 	113050	225000	3006	3023				CAFÉ Y ROJO		NA	ZUHA	1	2023	17.5	1515																																																																																									
+MPPM-001	BILLETERA ROSA FLUOR	73800	145000	3006	3024				ROSA FLUOR	BILLETERAS	NA	MARISOL PRADA	1	2028	17.5	8417																																																																																									
+MPPM-002	BILLETERA AZUL OSCURO	73800	145000	3006	3024				AZUL OSCURO	BILLETERAS	NA	MARISOL PRADA	1	2028	17.5	8417																																																																																									
+MPPM-003	BILLETERA ROSA FLUOR	62100	125000	3006	3024				ROSA FLUOR	BILLETERAS	NA	MARISOL PRADA	1	2028	17.5	8413																																																																																									
+MPPM-004	BILLETERA NEGRA HOMBRE 	35100	70000	3008	3026				NEGRAS	BILLETERAS	NA	MARISOL PRADA	1	2028	17.5	8502																																																																																									
+MPPM-005	BILLETERA MIEL HOMBRE	35100	70000	3008	3026				MIEL	BILLETERAS	NA	MARISOL PRADA	2	2028	17.5	8502																																																																																									
+MPPM-006	BILLETERA MARRON DE HOMBRE 	35100	70000	3008	3026				MARRON	BILLETERAS	NA	MARISOL PRADA	3	2028	17.5	8502																																																																																									
+MPPM-007	BILLETERA NEGRA SENCILLA DE HOMBRE	35100	70000	3008	3026				NEGRA	BILLETERAS	NA	MARISOL PRADA	1	2028	17.5	8501																																																																																									
+MPPM-008	LLAVEROS HOMBRES DE CUERO 	10000	20000	3008	3026				MARRON	LLAVEROS	NA	MARISOL PRADA	3	2028	17.5	8504																																																																																									
+MPPM-009	LLAVEROS HOMBRES DE CUERO 	10000	20000	3008	3026				NEGRO	LLAVEROS	NA	MARISOL PRADA	2	2028	17.5	8504																																																																																									
+MPPM-010	LLAVEROS HOMBRES DE CUERO 	10000	20000	3008	3026				MIEL	LLAVEROS	NA	MARISOL PRADA	1	2028	17.5	8504																																																																																									
+MPPM-011	MONEDERO AZUL OSCURO 	10000	20000	3006	3024				AZUL OSCURO	MONEDEROS	NA	MARISOL PRADA	1	2028	17.5	8442																																																																																									
+MPPM-012	MONEDERO ORO EN CUERO 	15750	35000	3006	3024				ORO 	MONEDEROS	NA	MARISOL PRADA	1	2028	17.5	8411																																																																																									
+MPPM-013	MONEDERO LIMON 	15750	35000	3006	3024				LIMON	MONEDEROS	NA	MARISOL PRADA	1	2028	17.5	8431																																																																																									
+MPPM-014	MONEDERO AZUL OSCURO 	15750	35000	3006	3024				AZUL OSCURO	MONEDEROS	NA	MARISOL PRADA	2	2028	17.5	8411																																																																																									
+AAML-001	MANOS LIBRES NEGRO	71100	145000	3006	3022				NEGRO		NA	ADRIANA ANCHICOQUE	1	2025	17.5	8215																																																																																									
+AAML-002	MANOS LIBRES PEQUEÑO ALMENDRA	52650	105000	3006	3022				ALMENDRA		NA	ADRIANA ANCHICOQUE	1	2025	17.5	8113																																																																																									
+AAPM-003	COSMETIQUERA ORO	37350	75000	3006	3024				ORO	COSMETIQUERAS	NA	ADRIANA ANCHICOQUE	1	2025	17.5	8150																																																																																									
+AAPM-004	BILLETERA ROSA	66150	135000	3006	3024				ROSA 	BILLETERAS	NA	ADRIANA ANCHICOQUE	1	2025	17.5	4525																																																																																									
+AAPM-005	BILLETERA ALMENDRA EN CUERO 	63270	125000	3006	3024				ALMENDRA	BILLETERAS	NA	ADRIANA ANCHICOQUE	1	2025	17.5	8117																																																																																									
+AAPM-006	BILLETERA ROJA EN CUERO	67050	135000	3006	3024				ROJO	BILLETERAS	NA	ADRIANA ANCHICOQUE	1	2025	17.5	8211																																																																																									
+AAPM-007	PORTALAPICES ORO	32400	65000	3006	3024				ORO	PORTALAPICES	NA	ADRIANA ANCHICOQUE	1	2025	17.5	8152																																																																																									
+AAPM-008	PORTALAPICES ALMENDRA 	32400	65000	3006	3024				ALMENDRA	PORTALAPICES	NA	ADRIANA ANCHICOQUE	1	2025	17.5	8152																																																																																									
+AAPM-009	PORTALAPICES ALMENDRA EN CUERO	32400	65000	3006	3024				ALMENDRA	PORTALAPICES	NA	ADRIANA ANCHICOQUE	1	2025	17.5	4584																																																																																									
+AAPM-010	BILLETERA CAFÉ DE HOMBRE	47515	95000	3008	3026				CAFÉ	BILLETERAS	NA	ADRIANA ANCHICOQUE	2	2025	17.5	3098																																																																																									
+AAPM-011	BILLETERA MIEL DE HOMBRE 	47515	95000	3008	3026				MIEL	BILLETERAS	NA	ADRIANA ANCHICOQUE	1	2025	17.5	5443																																																																																									
+AAPM-012	BILLETERA NEGRA DE HOMBRE 	47515	95000	3008	3026				NEGRA	BILLETERAS	NA	ADRIANA ANCHICOQUE	1	2025	17.5	8115																																																																																									
+AAPM-013	BILLETERA ORO EN CUERO 	47515	95000	3006	3024				ORO	BILLETERAS	NA	ADRIANA ANCHICOQUE	1	2025	17.5	8122																																																																																									
+AAPM-014	BILLETERA ORO	67500	135000	3006	3024				ORO	BILLETERAS	NA	ADRIANA ANCHICOQUE	1	2025	17.5	8149																																																																																									
+AAML-015	PORTACELULAR LIBRES PLATA	45190	190000	3006	3024				PLATA	PORTACELULARES	NA	ADRIANA ANCHICOQUE	2	2025	17.5	4563																																																																																									
+AAML-016	PORTACELULAR  MIEL	45190	190000	3006	3024				MIEL	PORTACELULARES	NA	ADRIANA ANCHICOQUE	1	2025	17.5	8108																																																																																									
+AAML-017	MANOS LIBRES ORO EN CUERO 	67500	135000	3006	3022				ORO		NA	ADRIANA ANCHICOQUE	1	2025	17.5	8116																																																																																									
+AAML-018	MANOS LIBRES ORO	75150	150000	3006	3022				ORO CAFÉ		NA	ADRIANA ANCHICOQUE	1	2025	17.5	8138																																																																																									
+CPML-001	MANOS LIBRES ORO EN CUERO 	103500	195000	3006	3022				ORO		NA	CLAPE	1	2014	17.5	3104																																																																																									
+MCB-001	BOLSO MEDIANO EN CUERO AZUL OSCURO	96000	215000	3006	3021				AZUL		NA	MARI CRUZ	1	2017	17.5	3661																																																																																									
+KZB-001	BOLSO GRANDE ROJO	192720	370000	3006	3021				ROJO		NA	KRIZZ	1	2024	17.5	6288																																																																																									
+KZBN-002	BOLSO DORADO PLATA SINTETICO DE NIÑA	30000	60000	3006	3021				PLATA DORADO		NA	KRIZZ	1	2024	17.5	6289																																																																																									
+KZBN-003	BOLSO ROJO EN CHAROL SINTETICO DE NIÑA	30000	60000	3006	3021				ROJO		NA	KRIZZ	1	2024	17.5	9870																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+																																																																																																									
+DÑ-004																																																																																																									

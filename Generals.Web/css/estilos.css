@@ -1,0 +1,199 @@
+﻿
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0 auto;
+	padding: 0;
+	text-align:center;
+
+	font-family:Trebuchet MS;
+}
+
+
+#padre
+{
+	text-align:left;
+	margin: 0 auto;
+	padding: 0;	
+	width:1024px;
+	
+}
+
+#banner, #menu, #cuerpo, #subbanner
+{
+	float:left;
+	width: 1010px;
+	height: 215px;
+
+	background:url(../Imagenes/header.jpg) repeat-x;
+
+}
+
+#subbanner
+{
+	background:url(../Imagenes/head.jpg) !important;
+}
+
+
+#cuerpo
+{
+
+	/*background: url(../Imagenes/Fondo_conte.jpg);*/
+    width:996px;
+	margin:0px 14px 0px 14px;
+	background:none;
+	height:810px;
+	border:thin solid #CCCCCC;
+
+
+
+}
+
+#izq
+{
+	float: left;
+	width:220px;
+	height: 400px;
+	margin-right:5px;
+	
+		
+}
+
+h2
+{
+    background:red;
+    height:30px;
+    margin:20px 0px 23px 0px;
+    background:url(../Imagenes/backhs.jpg);
+    color:#5E5E5E;
+    padding-left:5px;
+    
+}
+#derecha
+{
+	float: left;
+	width:769px;
+	height:780px;
+	border-left:thin solid #CCCCCC;
+	
+	
+}
+
+.visible
+        {
+            display:none !important;
+        }
+
+#pie{
+	float:left;
+	width:1024px;
+	height: 70px;
+	margin-top:20px;
+	background:#d8d9dd;
+	margin-bottom:10px;
+	text-align:center;
+	
+}
+
+#pie h3
+{
+    font-size:0.8em;
+	font-weight:normal;	
+	color:#333333;
+	margin-top:30px;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.iframe
+{
+    background-color:#FFFFFF !important;
+    background:#FFFFFF !important;
+}
+
+#ocultmenu
+            {
+                position:absolute;
+                background:red;
+                width:50px;
+                height:50px;
+                left:180px;
+    top: 237px;
+}
+#mostmenu
+            {
+                display:none;
+                position:absolute;
+                left:50px;
+                height: 20px;
+                width: 10px ;
+                background:red;
+            }
+
+
+
+
+#tipPrincipal
+{
+    float:left;
+    width:744px;
+    height:249px;
+    background:#333333;   
+}
+
+#tipSub1, #tipSub2
+{
+    float:left;
+    width:360px;
+    height:365px;
+    margin-top:20px;
+}
+
+#tipSub1
+{
+    background:#c42626;
+}
+
+#tipSub2
+{
+    background:#bc595e;
+    margin-left:24px;
+}
+
+#izquierda
+{
+	float: left;
+	width:760px;
+	height:780px;
+	border-left:thin solid #CCCCCC;
+	background:#DDDDDD;
+	
+	
+}
+
+
+/*estilos para el area de la derecha*/
+#derecha1
+{
+	float: left;
+	width:220px;
+	height: 780px;
+	margin-right:5px;
+	background:#EEEEEE;
+	border:thin solid #DDDDDD;
+	
+		
+}
+
+.salir
+{
+    float:right;
+    margin-right: 10px;
+}
+.label1 {
+    border-bottom:1px solid #333; width:100%; font-size:1.3em;margin-bottom:10px;margin-top:20px;color:#333;
+}

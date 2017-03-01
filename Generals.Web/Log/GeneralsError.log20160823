@@ -1,0 +1,5 @@
+ERROR 2016-08-23 16:11:25,998 - Mensaje:A field or property with the name 'CantidadExistente' was not found on the selected data source., Inner:NA
+ERROR 2016-08-23 16:15:15,679 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-23 16:35:39,372 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-23 16:35:44,460 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-23 16:36:14,719 - Mensaje:Input string was not in a correct format., Inner:NA

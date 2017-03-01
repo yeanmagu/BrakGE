@@ -1,0 +1,95 @@
+.camera_wrap
+{
+    height: 350px !important;
+}
+
+.camera_wrap div
+{
+    
+}
+
+.headtop
+{
+    color: #1183c6 !important;
+    background-image: none !important;
+}
+
+.headtop a, .textstyle1{
+    color: #355aa7 !important;
+}
+
+h4, .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs li a,.nav-collapse_, .nav ul li a span
+{
+    color: #355aa7 !important;
+}
+
+.link
+{
+    background: #355aa7 !important;
+}
+
+.nav-collapse_ .nav>li>a
+{
+    font-size: 15px !important;
+    padding:12px 15px !important;
+}
+
+.nav-collapse_ .nav>li>a:hover
+{
+    color: #FFF !important;
+    text-decoration: underline;
+}
+
+.nav-collapse_ .nav>li>a .sf-sub-indicator
+{
+    right: 3px !important;
+}
+
+
+.nav-collapse_ .nav ul li a
+{
+    font-size: 10px !important;
+}
+
+.men-cont1, .men-cont2
+{
+    float: left;
+}
+
+.men-cont2
+{
+    margin-left: 10px;
+}
+
+
+/*botones de los formularios*/
+.button
+{
+    padding: 5px;
+    border:thin solid #001a35;
+    border-radius: 3px;
+    background: #355AA8;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.button:hover
+{
+    border-top: thin solid #4572d1;
+    background: #4572d1;
+}
+
+.list3 li a:hover
+{
+    color: #5A5A5A !important;
+}
+
+.list-soc
+{
+    padding-bottom: 10px !important;
+}
+
+.least-preview, .least-gallery
+{
+    margin-top: 20px;
+}

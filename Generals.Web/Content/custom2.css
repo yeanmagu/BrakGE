@@ -1,0 +1,231 @@
+﻿.barra
+		{
+			/*background: url('../imagenes/back1.png') !important; */
+            background:#337AB7;
+			margin-bottom: 0;
+            background-size: 1px 100%;
+			border-radius:0 !important ;
+			border:0;
+            border-bottom: 1px solid #2E6DA4;
+		}
+		.yell
+		{
+			margin-top:0;
+			border-top: 3px solid #fff ;
+			min-height: 300px;
+			/*background: url('../Imagenes/back.png') repeat-x;*/ 	
+			background-size: 10px 100px;
+		}
+		/* centered columns styles */
+		.row-centered {
+		    text-align:center;
+		}
+		.col-centered {
+		    display:inline-block;
+		    float:none;
+		    /* reset the text-align */
+		    text-align:left;
+		    /* inline-block space fix */
+		    margin-right:-4px;
+		}
+
+		.flot
+		{
+			margin-top: 10px;
+		}
+
+		.content-login
+		{
+			background:#fefefe;
+			border:thin solid #EEEEEE;
+			border-radius: 5px;
+            padding-bottom:10px;
+		}
+        .but{
+            min-width:100px;
+        }
+
+		.carousel
+		{
+			min-height: 200px;
+		}
+
+		.slid
+		{
+            width:100% !important;
+			height:100% !important;
+		}
+
+		.navbar-brand
+		{
+			color: #fff !important;
+		}
+
+		h1
+		{
+			color: #333;
+		}
+
+		.carousel
+		{
+			background-color: #fff !important;
+		}
+
+
+        .label1{
+            display:block;
+            width:99%;
+            border-bottom:1px solid #333;
+            margin:7px;
+        }
+        
+        .label1 span{
+            display:block;
+            width:200px;
+            padding:12px;
+            color:#FFF;
+            background:#333;
+            border-radius:5px 5px 0px 0px;
+        }
+
+        .hyperActa{
+            text-decoration:none;
+            color:#fff;
+        }
+        .hyperActa:hover{
+            text-decoration:double;
+            color:#ffd800;
+            
+        }
+         .labelLiquidacion{
+            display:block;
+            width:100%;
+            margin:2px;
+            font-size:80%;
+        }
+
+          .labelLiquidacion span{
+            display:block;
+            width:100%;
+            padding:8px;
+            color:#FFF;
+            background:#808080;
+            border-radius:5px 5px 0px 0px;
+            font-size:80%;
+        }
+         .btngrid
+        {
+            padding:5px;
+            border-radius:3px;
+            
+        }
+
+.rell {
+    color:#F0F0F0;
+}
+
+.caja {
+    /*background: #f0f0f0;*/
+    border-radius: 3px;
+}
+.liq 
+{
+    width:70%;
+}
+.celdas 
+{
+  margin-top:10px !Important;
+}
+
+.nav > li > a
+{
+    color:#FFF !important;
+}
+
+.nav > li > a:hover
+{
+    color:#333 !important;
+}
+
+.celdasMedidor {
+    width: 20px !important;
+    text-align: center !important;
+}
+
+.celdasMedidor img
+{
+    padding:0;
+}
+
+/*.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px !important;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #f76c51;
+   
+    font-size: x-small !important;
+}*/
+.alineacion {
+
+    text-align:center;
+}
+
+.du
+{
+    width: 100% !important;
+}
+
+.convenciones {
+    padding:5px;
+   margin-bottom:20px;
+    width:auto;
+    font-weight:bold;
+}
+
+
+
+
+.img-imgAno img {
+-webkit-transition:all .0s ease ; /* Safari y Chrome */
+-moz-transition:all .0s ease ; /* Firefox */
+-o-transition:all .0s ease ; /* IE 9 */
+-ms-transition:all .0s ease; /* Opera */
+width:100% !important;
+height:100% !important;
+display: block;
+  margin:0 auto;
+
+}
+.img-imgAno  label{
+   
+
+}
+.img-imgAno:hover img {
+    -webkit-transform:scale(2.25) ;
+    -moz-transform:scale(2.25) ;
+    -ms-transform:scale(2.25) ;
+    -o-transform:scale(2.25);
+    transform:scale(2.25) ;
+    position:relative !important;
+      margin:0 auto;
+    left:50px;
+    right:50px;
+    z-index:100 !important;
+
+
+}
+
+.img-imgAno:hover
+{
+  
+   
+}
+.img-imgAno {/*Ancho y altura son modificables al requerimiento de cada uno*/
+    width:100% !important;
+    height:200px !important;
+    border-color:#2E6DA4 !important;
+    margin:0 auto;
+    max-width: 100%;
+    /*Overflow: hidden nos ocultará la parte de la imagen que sobrepase las dimensiones del <div>*/
+    /*overflow: hidden;*/
+}

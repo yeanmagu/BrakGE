@@ -1,0 +1,44 @@
+﻿body {
+	margin: 10px auto;
+	width: 940px;
+	font: 80%/100% Arial, Helvetica, sans-serif;
+	
+}
+.accordion {
+	border-bottom: solid 0px #666666;
+}
+.accordion h3 {
+	background: #33b90a url(../img/arrow-square.gif) no-repeat right -51px;
+	padding: 2px 12px;
+	margin: 0;
+	font: bold 120%/100% Arial, Helvetica, sans-serif; 
+	border: solid 1px #C0C0C0;
+	border-bottom: none;
+	cursor: pointer;
+	
+}
+.accordion h3:hover 
+{  
+	background-color: #33b90a;
+	color:White !important;
+
+}
+.accordion h3.active {
+	background-position: right 5px;
+	background-color: #33b90a;
+	color:White !important;
+	 
+}
+
+.accordion p {
+	background: #C0C0C0;
+	margin: 0;
+	padding: 10px 15px 20px;
+	border-left: solid 1px #C0C0C0;
+	border-right: solid 1px #C0C0C0;
+}
+
+#libreta{
+	background-image: url(../../../../Desktop/Sin-ti%CC%81tulo-1.jpg);
+}
+

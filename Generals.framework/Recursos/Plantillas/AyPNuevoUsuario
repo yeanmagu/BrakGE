@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+#if ($clave!="")
+	<table>
+	  <tr>
+		<td>
+		 Bienvenido(a) a Grupo AyP-Inversiones Colombia, <br></br>
+		 El usuario $usuario.username ha sido creado, por favor ingrese a htt://200.116.53.176/AyPInveriones con la clave <b><i><span style="color:#FF0000">$clave</span></i></b>. Recuerde cambiar la clave en el primer ingreso.
+		</td>
+	  </tr>
+	</table>
+#else
+	<table>
+	  <tr>
+		<td>
+		 Bienvenido(a) a Grupo AyP-Inversiones, <br></br>
+		 El usuario $usuario.username ha sido creado Con un nuevo rol, por favor ingrese a htt://200.116.53.176/AyPInveriones.
+		</td>
+	  </tr>
+	</table>
+#end
+  

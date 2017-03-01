@@ -1,0 +1,47 @@
+ERROR 2016-11-17 09:35:57,186 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Roles_Usuarios". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.Users", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-17 10:26:41,553 - Mensaje:The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at, Inner:NA
+ERROR 2016-11-17 10:26:45,592 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Roles_Usuarios". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.Users", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-17 10:28:56,893 - Mensaje:'Vendedor' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 10:28:58,942 - Mensaje:'TipoMovimiento' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 10:37:37,225 - Mensaje:'Vendedor' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 10:37:43,214 - Mensaje:'TipoMovimiento' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 10:39:19,450 - Mensaje:'Vendedor' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 11:11:02,466 - Mensaje:'Vendedor' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 11:14:23,386 - Mensaje:'Vendedor' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 11:15:19,722 - Mensaje:'Vendedor' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 11:16:16,020 - Mensaje:'Vendedor' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 11:25:10,647 - Mensaje:'Vendedor' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 11:26:02,276 - Mensaje:'Vendedor' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-17 11:28:33,255 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-17 11:29:04,007 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-17 11:33:19,058 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-17 11:33:44,987 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-17 21:40:03,337 - Mensaje:DataBinding: 'Generals.business.UserEntities.Usuarios' does not contain a property with the name 'Id'., Inner:NA
+ERROR 2016-11-17 21:52:44,557 - Mensaje:DataBinding: 'Generals.business.UserEntities.Usuarios' does not contain a property with the name 'Nombres'., Inner:NA
+ERROR 2016-11-17 21:53:34,121 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-11-17 21:56:40,610 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-11-17 21:59:09,600 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-11-17 22:06:41,770 - Mensaje:Infracción de la restricción PRIMARY KEY 'PK_Usuarios'. No se puede insertar una clave duplicada en el objeto 'dbo.Users'. El valor de la clave duplicada es (10421).
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-17 22:07:35,249 - Mensaje:Infracción de la restricción PRIMARY KEY 'PK_Usuarios'. No se puede insertar una clave duplicada en el objeto 'dbo.Users'. El valor de la clave duplicada es (10421).
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-17 22:13:09,156 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Roles_Usuarios". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.Users", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-17 22:15:36,308 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Roles_Usuarios". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.Users", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-17 22:17:46,439 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Roles_Usuarios". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.Users", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-17 22:27:29,692 - Mensaje:DataBinding: 'Generals.business.UserEntities.Usuarios' does not contain a property with the name 'Nombres'., Inner:NA

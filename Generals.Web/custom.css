@@ -1,0 +1,200 @@
+﻿.barra
+		{
+			/*background: url('../imagenes/back1.png') !important; */
+            background:#337AB7;
+			margin-bottom: 0;
+            background-size: 1px 100%;
+			border-radius:0 !important ;
+			border:0;
+            border-bottom: 1px solid #2E6DA4;
+		}
+		.yell
+		{
+			margin-top:0;
+			border-top: 3px solid #fff ;
+			min-height: 300px;
+			/*background: url('../Imagenes/back.png') repeat-x;*/ 	
+			background-size: 10px 100px;
+		}
+		/* centered columns styles */
+		.row-centered {
+		    text-align:center;
+		}
+		.col-centered {
+		    display:inline-block;
+		    float:none;
+		    /* reset the text-align */
+		    text-align:left;
+		    /* inline-block space fix */
+		    margin-right:-4px;
+		}
+
+		.flot
+		{
+			margin-top: 10px;
+		}
+
+		.content-login
+		{
+			background:#fefefe;
+			border:thin solid #EEEEEE;
+			border-radius: 5px;
+            padding-bottom:10px;
+		}
+        .but{
+            min-width:100px;
+        }
+
+		.carousel
+		{
+			min-height: 200px;
+            max-height:100%;
+            
+		}
+
+		.slid
+		{
+            width:100% !important;
+			height:100% !important;
+		}
+        .slid img{
+            width:50%;
+        }
+
+		.navbar-brand
+		{
+			color: #fff !important;
+		}
+
+		h1
+		{
+			color: #333;
+		}
+
+		.carousel
+		{
+			background-color: #fff !important;
+		}
+
+
+        .label1{
+            display:block;
+            width:99%;
+            border-bottom:1px solid #333;
+            margin:7px;
+        }
+        
+        .label1 span{
+            display:block;
+            width:200px;
+            padding:12px;
+            color:#FFF;
+            background:#333;
+            border-radius:5px 5px 0px 0px;
+        }
+
+        .hyperActa{
+            text-decoration:none;
+            color:#fff;
+        }
+        .hyperActa:hover{
+            text-decoration:double;
+            color:#ffd800;
+            
+        }
+         .labelLiquidacion{
+            display:block;
+            width:100%;
+            margin:2px;
+            font-size:80%;
+        }
+
+          .labelLiquidacion span{
+            display:block;
+            width:100%;
+            padding:8px;
+            color:#FFF;
+            background:#808080;
+            border-radius:5px 5px 0px 0px;
+            font-size:80%;
+        }
+         .btngrid
+        {
+            padding:5px;
+            border-radius:3px;
+            
+        }
+
+.rell {
+    color:#F0F0F0;
+}
+
+.caja {
+    /*background: #f0f0f0;*/
+    border-radius: 3px;
+}
+.liq 
+{
+    width:70%;
+}
+.celdas 
+{
+  margin-top:10px !Important;
+}
+
+.nav > li > a
+{
+    color:#FFF !important;
+}
+
+.nav > li > a:hover
+{
+    color:#333 !important;
+}
+
+.celdasMedidor {
+width:20px !important;
+text-align:center  !important;
+
+
+
+
+}
+
+.celdasMedidor img
+{
+    
+    
+    padding:0;
+}
+
+.alineacion {
+
+    text-align:center;
+}
+
+.du
+{
+    width: 100% !important;
+}
+
+.convenciones {
+    padding:5px;
+   margin-bottom:20px;
+    width:auto;
+    font-weight:bold;
+}
+ .fecha{
+                border: 1px solid #000 !important;
+        }
+
+  .panel {
+            /*box-shadow: 1px 1px 1px 1px #3b4498;*/
+            border: 1px solid !important;
+            margin-bottom: 24px !important;;
+            border-color: darkblue !important;
+            border-top-color: darkblue !important;
+            border-right-color: darkblue !important;;
+            border-bottom-color: darkblue !important;;
+            border-left-color: darkblue !important;
+        }

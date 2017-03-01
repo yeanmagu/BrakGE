@@ -1,0 +1,10 @@
+ERROR 2016-11-28 09:16:29,512 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-28 09:17:10,921 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-28 09:18:00,805 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-28 09:19:01,058 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-28 09:27:12,757 - Mensaje:Value cannot be null.
+Parameter name: source, Inner:NA
+ERROR 2016-11-28 09:29:55,656 - Mensaje:Value cannot be null.
+Parameter name: source, Inner:NA
+ERROR 2016-11-28 09:35:05,795 - Mensaje:Value cannot be null.
+Parameter name: source, Inner:NA

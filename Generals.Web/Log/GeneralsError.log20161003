@@ -1,0 +1,8 @@
+ERROR 2016-10-03 10:56:15,334 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Documentos_FomaDePago". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.FomaDePago", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-10-03 10:58:38,049 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-10-03 15:04:46,742 - Mensaje:'TipoMovimiento' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-10-03 16:41:59,574 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-10-03 16:57:10,902 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-10-03 17:22:37,746 - Mensaje:The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at, Inner:NA

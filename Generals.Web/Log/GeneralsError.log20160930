@@ -1,0 +1,21 @@
+ERROR 2016-09-30 10:18:43,180 - Mensaje:String was not recognized as a valid DateTime., Inner:NA
+ERROR 2016-09-30 10:23:05,005 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-09-30 10:36:18,717 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-09-30 10:42:30,355 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-09-30 10:44:13,147 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-09-30 10:45:44,386 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-09-30 10:49:09,315 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-09-30 10:52:29,960 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-09-30 11:06:09,555 - Mensaje:The underlying provider failed on Open., Inner:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ERROR 2016-09-30 11:10:34,487 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-09-30 11:20:34,104 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-09-30 13:37:07,262 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-09-30 13:53:16,891 - Mensaje:String was not recognized as a valid DateTime., Inner:NA
+ERROR 2016-09-30 13:56:47,890 - Mensaje:String was not recognized as a valid DateTime., Inner:NA
+ERROR 2016-09-30 14:08:52,553 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-09-30 14:08:54,946 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-09-30 14:08:57,052 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-09-30 14:08:59,164 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-09-30 14:09:01,217 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-09-30 15:56:55,485 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-09-30 15:58:14,087 - Mensaje:Input string was not in a correct format., Inner:NA

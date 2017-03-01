@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="dbPrestoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="dbPrestoModelStoreContainer">
+          <EntitySet Name="Opciones" EntityType="dbPrestoModel.Store.Opciones" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="OpcionesRol" EntityType="dbPrestoModel.Store.OpcionesRol" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Roles" EntityType="dbPrestoModel.Store.Roles" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Usuarios" EntityType="dbPrestoModel.Store.Usuarios" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Auditoria" EntityType="dbPrestoModel.Store.Auditoria" store:Type="Tables" Schema="User" />
+          <EntitySet Name="AutorizacionesOpcion" EntityType="dbPrestoModel.Store.AutorizacionesOpcion" store:Type="Tables" Schema="User" />
+          <EntitySet Name="FallasAutenticacion" EntityType="dbPrestoModel.Store.FallasAutenticacion" store:Type="Tables" Schema="User" />
+          <EntitySet Name="Ingresos" EntityType="dbPrestoModel.Store.Ingresos" store:Type="Tables" Schema="User" />
+          <EntitySet Name="Navegaciones" EntityType="dbPrestoModel.Store.Navegaciones" store:Type="Tables" Schema="User" />
+          <EntitySet Name="OpcionesAutorizacionRol" EntityType="dbPrestoModel.Store.OpcionesAutorizacionRol" store:Type="Tables" Schema="User" />
+          <EntitySet Name="Parametros" EntityType="dbPrestoModel.Store.Parametros" store:Type="Tables" Schema="User" />
+          <EntitySet Name="RolesUsuario" EntityType="dbPrestoModel.Store.RolesUsuario" store:Type="Tables" Schema="User" />
+          <AssociationSet Name="FK_AutorizacionesOpcion_Opciones" Association="dbPrestoModel.Store.FK_AutorizacionesOpcion_Opciones">
+            <End Role="Opciones" EntitySet="Opciones" />
+            <End Role="AutorizacionesOpcion" EntitySet="AutorizacionesOpcion" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Navegaciones_Ingresos" Association="dbPrestoModel.Store.FK_Navegaciones_Ingresos">
+            <End Role="Ingresos" EntitySet="Ingresos" />
+            <End Role="Navegaciones" EntitySet="Navegaciones" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OpcionesAutorizacionRol_AutorizacionesOpcion" Association="dbPrestoModel.Store.FK_OpcionesAutorizacionRol_AutorizacionesOpcion">
+            <End Role="AutorizacionesOpcion" EntitySet="AutorizacionesOpcion" />
+            <End Role="OpcionesAutorizacionRol" EntitySet="OpcionesAutorizacionRol" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OpcionesAutorizacionRol_Roles" Association="dbPrestoModel.Store.FK_OpcionesAutorizacionRol_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="OpcionesAutorizacionRol" EntitySet="OpcionesAutorizacionRol" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OpcionesRol_Opciones" Association="dbPrestoModel.Store.FK_OpcionesRol_Opciones">
+            <End Role="Opciones" EntitySet="Opciones" />
+            <End Role="OpcionesRol" EntitySet="OpcionesRol" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OpcionesRol_Roles" Association="dbPrestoModel.Store.FK_OpcionesRol_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="OpcionesRol" EntitySet="OpcionesRol" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RolesUsuario_Roles" Association="dbPrestoModel.Store.FK_RolesUsuario_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="RolesUsuario" EntitySet="RolesUsuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RolesUsuario_Usuarios" Association="dbPrestoModel.Store.FK_RolesUsuario_Usuarios">
+            <End Role="Usuarios" EntitySet="Usuarios" />
+            <End Role="RolesUsuario" EntitySet="RolesUsuario" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Opciones">
+          <Key>
+            <PropertyRef Name="Idopciones" />
+          </Key>
+          <Property Name="Idopciones" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+          <Property Name="IdOpcionPadre" Type="bigint" />
+          <Property Name="Titulo" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="Pagina" Type="varchar" MaxLength="100" />
+          <Property Name="Orden" Type="int" Nullable="false" />
+          <Property Name="IdServicio" Type="int" />
+          <Property Name="Parametros" Type="varchar" MaxLength="50" />
+          <Property Name="Visibilidad" Type="char" MaxLength="1" />
+        </EntityType>
+        <EntityType Name="OpcionesRol">
+          <Key>
+            <PropertyRef Name="IdRol" />
+            <PropertyRef Name="IdOpcion" />
+          </Key>
+          <Property Name="IdRol" Type="bigint" Nullable="false" />
+          <Property Name="IdOpcion" Type="bigint" Nullable="false" />
+          <Property Name="Activo" Type="bit" />
+        </EntityType>
+        <EntityType Name="Roles">
+          <Key>
+            <PropertyRef Name="id_rol" />
+          </Key>
+          <Property Name="id_rol" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="desc_rol" Type="varchar" MaxLength="200" />
+          <Property Name="actor" Type="varchar" MaxLength="200" />
+          <Property Name="NivelCreador" Type="smallint" Nullable="false" />
+          <Property Name="Interno" Type="bit" Nullable="false" />
+          <Property Name="RequiereToken" Type="bit" Nullable="false" />
+          <Property Name="IdServicio" Type="int" Nullable="false" />
+          <Property Name="IdUsuarioCreacion" Type="bigint" />
+          <Property Name="IdUsuarioModificacion" Type="bigint" />
+          <Property Name="FechaCreacion" Type="datetime" />
+          <Property Name="FechaModificacion" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Usuarios">
+          <Key>
+            <PropertyRef Name="id_usuario" />
+          </Key>
+          <Property Name="id_usuario" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="id_rol" Type="bigint" />
+          <Property Name="nombre" Type="varchar" MaxLength="100" />
+          <Property Name="ap_paterno" Type="varchar" MaxLength="50" />
+          <Property Name="ap_materno" Type="varchar" MaxLength="50" />
+          <Property Name="username" Type="varchar" MaxLength="50" />
+          <Property Name="password" Type="varchar" MaxLength="200" />
+          <Property Name="correo_electronico" Type="varchar" MaxLength="100" />
+          <Property Name="organizacion" Type="varchar" MaxLength="50" />
+          <Property Name="id_oficina" Type="bigint" />
+          <Property Name="region" Type="varchar" MaxLength="50" />
+          <Property Name="fecha_alta" Type="datetime" />
+          <Property Name="activo" Type="bit" />
+          <Property Name="bloqueo" Type="bit" />
+          <Property Name="fecha_ultimavisita" Type="datetime" />
+          <Property Name="intentos" Type="int" />
+          <Property Name="id_responsable" Type="bigint" />
+          <Property Name="changePassword" Type="bit" />
+          <Property Name="DateLastChagedPassword" Type="date" />
+          <Property Name="isLogged" Type="bit" />
+          <Property Name="status" Type="varchar" MaxLength="50" />
+          <Property Name="tel_contacto" Type="varchar" MaxLength="50" />
+          <Property Name="numero_identificacion" Type="varchar" MaxLength="50" />
+          <Property Name="Token" Type="varchar" MaxLength="50" />
+          <Property Name="IntentosBloqueo" Type="int" />
+          <Property Name="Clave1" Type="varchar" MaxLength="200" />
+          <Property Name="Clave2" Type="varchar" MaxLength="200" />
+          <Property Name="FechaModificacion" Type="datetime" />
+          <Property Name="FechaCambioClave" Type="datetime" />
+          <Property Name="IdUsuarioCreacion" Type="int" />
+        </EntityType>
+        <EntityType Name="Auditoria">
+          <Key>
+            <PropertyRef Name="IdAuditoria" />
+          </Key>
+          <Property Name="IdAuditoria" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Tabla" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Identificador" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Usuario" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="ValoresAnteriores" Type="varchar" Nullable="false" MaxLength="2000" />
+          <Property Name="ValoresActuales" Type="varchar" Nullable="false" MaxLength="2000" />
+          <Property Name="Fecha" Type="datetime" Nullable="false" />
+          <Property Name="IdServicio" Type="int" />
+        </EntityType>
+        <EntityType Name="AutorizacionesOpcion">
+          <Key>
+            <PropertyRef Name="IdAutorizacion" />
+          </Key>
+          <Property Name="IdAutorizacion" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdOpciones" Type="bigint" Nullable="false" />
+          <Property Name="Codigo" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="Titulo" Type="varchar" Nullable="false" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="FallasAutenticacion">
+          <Key>
+            <PropertyRef Name="IdFalla" />
+          </Key>
+          <Property Name="IdFalla" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdUsuario" Type="bigint" Nullable="false" />
+          <Property Name="Fecha" Type="datetime" Nullable="false" />
+          <Property Name="IP" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Session" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="IdServicio" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ingresos">
+          <Key>
+            <PropertyRef Name="IdIngreso" />
+          </Key>
+          <Property Name="IdIngreso" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdUsuario" Type="bigint" Nullable="false" />
+          <Property Name="Fecha" Type="datetime" Nullable="false" />
+          <Property Name="IP" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Session" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="IdServicio" Type="int" />
+        </EntityType>
+        <EntityType Name="Navegaciones">
+          <Key>
+            <PropertyRef Name="IdNavegacion" />
+          </Key>
+          <Property Name="IdNavegacion" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngreso" Type="int" Nullable="false" />
+          <Property Name="Fecha" Type="datetime" Nullable="false" />
+          <Property Name="Pagina" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="OpcionesAutorizacionRol">
+          <Key>
+            <PropertyRef Name="IdRol" />
+            <PropertyRef Name="IdAutorizacion" />
+          </Key>
+          <Property Name="IdRol" Type="bigint" Nullable="false" />
+          <Property Name="IdAutorizacion" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Parametros">
+          <Key>
+            <PropertyRef Name="IdParametro" />
+          </Key>
+          <Property Name="IdParametro" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Codigo" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="200" />
+          <Property Name="Valor" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="IdServicio" Type="int" Nullable="false" />
+          <Property Name="Longitud" Type="int" Nullable="false" />
+          <Property Name="Expresion" Type="varchar" MaxLength="100" />
+          <Property Name="FechaModificacion" Type="datetime" />
+          <Property Name="IdUsuarioModificacion" Type="int" />
+          <Property Name="TipoParametro" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="RolesUsuario">
+          <Key>
+            <PropertyRef Name="IdRol" />
+            <PropertyRef Name="IdUsuario" />
+          </Key>
+          <Property Name="IdRol" Type="bigint" Nullable="false" />
+          <Property Name="IdUsuario" Type="bigint" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_AutorizacionesOpcion_Opciones">
+          <End Role="Opciones" Type="dbPrestoModel.Store.Opciones" Multiplicity="1" />
+          <End Role="AutorizacionesOpcion" Type="dbPrestoModel.Store.AutorizacionesOpcion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Opciones">
+              <PropertyRef Name="Idopciones" />
+            </Principal>
+            <Dependent Role="AutorizacionesOpcion">
+              <PropertyRef Name="IdOpciones" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Navegaciones_Ingresos">
+          <End Role="Ingresos" Type="dbPrestoModel.Store.Ingresos" Multiplicity="1" />
+          <End Role="Navegaciones" Type="dbPrestoModel.Store.Navegaciones" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ingresos">
+              <PropertyRef Name="IdIngreso" />
+            </Principal>
+            <Dependent Role="Navegaciones">
+              <PropertyRef Name="IdIngreso" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OpcionesAutorizacionRol_AutorizacionesOpcion">
+          <End Role="AutorizacionesOpcion" Type="dbPrestoModel.Store.AutorizacionesOpcion" Multiplicity="1" />
+          <End Role="OpcionesAutorizacionRol" Type="dbPrestoModel.Store.OpcionesAutorizacionRol" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AutorizacionesOpcion">
+              <PropertyRef Name="IdAutorizacion" />
+            </Principal>
+            <Dependent Role="OpcionesAutorizacionRol">
+              <PropertyRef Name="IdAutorizacion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OpcionesAutorizacionRol_Roles">
+          <End Role="Roles" Type="dbPrestoModel.Store.Roles" Multiplicity="1" />
+          <End Role="OpcionesAutorizacionRol" Type="dbPrestoModel.Store.OpcionesAutorizacionRol" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="id_rol" />
+            </Principal>
+            <Dependent Role="OpcionesAutorizacionRol">
+              <PropertyRef Name="IdRol" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OpcionesRol_Opciones">
+          <End Role="Opciones" Type="dbPrestoModel.Store.Opciones" Multiplicity="1" />
+          <End Role="OpcionesRol" Type="dbPrestoModel.Store.OpcionesRol" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Opciones">
+              <PropertyRef Name="Idopciones" />
+            </Principal>
+            <Dependent Role="OpcionesRol">
+              <PropertyRef Name="IdOpcion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OpcionesRol_Roles">
+          <End Role="Roles" Type="dbPrestoModel.Store.Roles" Multiplicity="1" />
+          <End Role="OpcionesRol" Type="dbPrestoModel.Store.OpcionesRol" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="id_rol" />
+            </Principal>
+            <Dependent Role="OpcionesRol">
+              <PropertyRef Name="IdRol" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RolesUsuario_Roles">
+          <End Role="Roles" Type="dbPrestoModel.Store.Roles" Multiplicity="1" />
+          <End Role="RolesUsuario" Type="dbPrestoModel.Store.RolesUsuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="id_rol" />
+            </Principal>
+            <Dependent Role="RolesUsuario">
+              <PropertyRef Name="IdRol" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RolesUsuario_Usuarios">
+          <End Role="Usuarios" Type="dbPrestoModel.Store.Usuarios" Multiplicity="1" />
+          <End Role="RolesUsuario" Type="dbPrestoModel.Store.RolesUsuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuarios">
+              <PropertyRef Name="id_usuario" />
+            </Principal>
+            <Dependent Role="RolesUsuario">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dbPrestoModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="dbGeneralsUser" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Usuarios" EntityType="dbPrestoModel.Usuarios" />
+          <EntitySet Name="AutorizacionesOpcion" EntityType="dbPrestoModel.AutorizacionesOpcion" />
+          <EntitySet Name="FallasAutenticacion" EntityType="dbPrestoModel.FallasAutenticacion" />
+          <EntitySet Name="Ingresos" EntityType="dbPrestoModel.Ingresos" />
+          <EntitySet Name="Navegaciones" EntityType="dbPrestoModel.Navegaciones" />
+          <EntitySet Name="Parametros" EntityType="dbPrestoModel.Parametros" />
+          <AssociationSet Name="FK_Navegaciones_Ingresos" Association="dbPrestoModel.FK_Navegaciones_Ingresos">
+            <End Role="Ingresos" EntitySet="Ingresos" />
+            <End Role="Navegaciones" EntitySet="Navegaciones" />
+          </AssociationSet>
+          <EntitySet Name="Opciones" EntityType="dbPrestoModel.Opciones" />
+          <EntitySet Name="Roles" EntityType="dbPrestoModel.Roles" />
+          <AssociationSet Name="FK_AutorizacionesOpcion_Opciones" Association="dbPrestoModel.FK_AutorizacionesOpcion_Opciones">
+            <End Role="Opciones" EntitySet="Opciones" />
+            <End Role="AutorizacionesOpcion" EntitySet="AutorizacionesOpcion" />
+          </AssociationSet>
+          <AssociationSet Name="OpcionesAutorizacionRol" Association="dbPrestoModel.OpcionesAutorizacionRol">
+            <End Role="AutorizacionesOpcion" EntitySet="AutorizacionesOpcion" />
+            <End Role="Roles" EntitySet="Roles" />
+          </AssociationSet>
+          <AssociationSet Name="RolesUsuario" Association="dbPrestoModel.RolesUsuario">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="Usuarios" EntitySet="Usuarios" />
+          </AssociationSet>
+          <AssociationSet Name="OpcionesRol" Association="dbPrestoModel.OpcionesRol">
+            <End Role="Opciones" EntitySet="Opciones" />
+            <End Role="Roles" EntitySet="Roles" />
+          </AssociationSet>
+          <EntitySet Name="Auditoria" EntityType="dbPrestoModel.Auditoria" />
+        </EntityContainer>
+        <EntityType Name="Usuarios">
+          <Key>
+            <PropertyRef Name="id_usuario" />
+          </Key>
+          <Property Type="Int64" Name="id_usuario" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="id_rol" />
+          <Property Type="String" Name="nombre" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ap_paterno" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ap_materno" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="password" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="correo_electronico" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="organizacion" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int64" Name="id_oficina" />
+          <Property Type="String" Name="region" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="fecha_alta" />
+          <Property Type="Boolean" Name="activo" />
+          <Property Type="Boolean" Name="bloqueo" />
+          <Property Type="DateTime" Name="fecha_ultimavisita" />
+          <Property Type="Int32" Name="intentos" />
+          <Property Type="Int64" Name="id_responsable" />
+          <Property Type="Boolean" Name="changePassword" />
+          <Property Type="DateTime" Name="DateLastChagedPassword" />
+          <Property Type="Boolean" Name="isLogged" />
+          <Property Type="String" Name="status" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="tel_contacto" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="numero_identificacion" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="IntentosBloqueo" />
+          <Property Type="String" Name="Clave1" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Clave2" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="FechaModificacion" />
+          <Property Type="DateTime" Name="FechaCambioClave" />
+          <Property Type="Int32" Name="IdUsuarioCreacion" />
+          <Property Type="String" Name="Token" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Roles" Relationship="dbPrestoModel.RolesUsuario" FromRole="Usuarios" ToRole="Roles" />
+        </EntityType>
+        <EntityType Name="AutorizacionesOpcion">
+          <Key>
+            <PropertyRef Name="IdAutorizacion" />
+          </Key>
+          <Property Type="Int32" Name="IdAutorizacion" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="IdOpciones" Nullable="false" />
+          <Property Type="String" Name="Codigo" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Titulo" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Opciones" Relationship="dbPrestoModel.FK_AutorizacionesOpcion_Opciones" FromRole="AutorizacionesOpcion" ToRole="Opciones" />
+          <NavigationProperty Name="Roles" Relationship="dbPrestoModel.OpcionesAutorizacionRol" FromRole="AutorizacionesOpcion" ToRole="Roles" />
+        </EntityType>
+        <EntityType Name="FallasAutenticacion">
+          <Key>
+            <PropertyRef Name="IdFalla" />
+          </Key>
+          <Property Type="Int32" Name="IdFalla" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="IdUsuario" Nullable="false" />
+          <Property Type="DateTime" Name="Fecha" Nullable="false" />
+          <Property Type="String" Name="IP" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Session" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="IdServicio" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ingresos">
+          <Key>
+            <PropertyRef Name="IdIngreso" />
+          </Key>
+          <Property Type="Int32" Name="IdIngreso" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="IdUsuario" Nullable="false" />
+          <Property Type="DateTime" Name="Fecha" Nullable="false" />
+          <Property Type="String" Name="IP" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Session" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="IdServicio" />
+          <NavigationProperty Name="Navegaciones" Relationship="dbPrestoModel.FK_Navegaciones_Ingresos" FromRole="Ingresos" ToRole="Navegaciones" />
+        </EntityType>
+        <EntityType Name="Navegaciones">
+          <Key>
+            <PropertyRef Name="IdNavegacion" />
+          </Key>
+          <Property Type="Int32" Name="IdNavegacion" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="IdIngreso" Nullable="false" />
+          <Property Type="DateTime" Name="Fecha" Nullable="false" />
+          <Property Type="String" Name="Pagina" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Ingresos" Relationship="dbPrestoModel.FK_Navegaciones_Ingresos" FromRole="Navegaciones" ToRole="Ingresos" />
+        </EntityType>
+        <EntityType Name="Parametros">
+          <Key>
+            <PropertyRef Name="IdParametro" />
+          </Key>
+          <Property Type="Int32" Name="IdParametro" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Codigo" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Nombre" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Valor" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="IdServicio" Nullable="false" />
+          <Property Type="Int32" Name="Longitud" Nullable="false" />
+          <Property Type="String" Name="Expresion" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="FechaModificacion" />
+          <Property Type="Int32" Name="IdUsuarioModificacion" />
+          <Property Type="String" Name="TipoParametro" MaxLength="10" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <Association Name="FK_Navegaciones_Ingresos">
+          <End Type="dbPrestoModel.Ingresos" Role="Ingresos" Multiplicity="1" />
+          <End Type="dbPrestoModel.Navegaciones" Role="Navegaciones" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ingresos">
+              <PropertyRef Name="IdIngreso" />
+            </Principal>
+            <Dependent Role="Navegaciones">
+              <PropertyRef Name="IdIngreso" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Opciones">
+          <Key>
+            <PropertyRef Name="Idopciones" />
+          </Key>
+          <Property Type="Int64" Name="Idopciones" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Descripcion" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int64" Name="IdOpcionPadre" />
+          <Property Type="String" Name="Titulo" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Pagina" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Orden" Nullable="false" />
+          <Property Type="Int32" Name="IdServicio" />
+          <Property Type="String" Name="Parametros" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Visibilidad" MaxLength="1" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="AutorizacionesOpcion" Relationship="dbPrestoModel.FK_AutorizacionesOpcion_Opciones" FromRole="Opciones" ToRole="AutorizacionesOpcion" />
+          <NavigationProperty Name="Roles" Relationship="dbPrestoModel.OpcionesRol" FromRole="Opciones" ToRole="Roles" />
+        </EntityType>
+        <EntityType Name="Roles">
+          <Key>
+            <PropertyRef Name="id_rol" />
+          </Key>
+          <Property Type="Int64" Name="id_rol" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="desc_rol" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="actor" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="Int16" Name="NivelCreador" Nullable="false" />
+          <Property Type="Boolean" Name="Interno" Nullable="false" />
+          <Property Type="Boolean" Name="RequiereToken" Nullable="false" />
+          <Property Type="Int32" Name="IdServicio" Nullable="false" />
+          <Property Type="Int64" Name="IdUsuarioCreacion" />
+          <Property Type="Int64" Name="IdUsuarioModificacion" />
+          <Property Type="DateTime" Name="FechaCreacion" />
+          <Property Type="DateTime" Name="FechaModificacion" />
+          <NavigationProperty Name="AutorizacionesOpcion" Relationship="dbPrestoModel.OpcionesAutorizacionRol" FromRole="Roles" ToRole="AutorizacionesOpcion" />
+          <NavigationProperty Name="Usuarios" Relationship="dbPrestoModel.RolesUsuario" FromRole="Roles" ToRole="Usuarios" />
+          <NavigationProperty Name="Opciones" Relationship="dbPrestoModel.OpcionesRol" FromRole="Roles" ToRole="Opciones" />
+        </EntityType>
+        <Association Name="FK_AutorizacionesOpcion_Opciones">
+          <End Type="dbPrestoModel.Opciones" Role="Opciones" Multiplicity="1" />
+          <End Type="dbPrestoModel.AutorizacionesOpcion" Role="AutorizacionesOpcion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Opciones">
+              <PropertyRef Name="Idopciones" />
+            </Principal>
+            <Dependent Role="AutorizacionesOpcion">
+              <PropertyRef Name="IdOpciones" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="OpcionesAutorizacionRol">
+          <End Type="dbPrestoModel.AutorizacionesOpcion" Role="AutorizacionesOpcion" Multiplicity="*" />
+          <End Type="dbPrestoModel.Roles" Role="Roles" Multiplicity="*" />
+        </Association>
+        <Association Name="RolesUsuario">
+          <End Type="dbPrestoModel.Roles" Role="Roles" Multiplicity="*" />
+          <End Type="dbPrestoModel.Usuarios" Role="Usuarios" Multiplicity="*" />
+        </Association>
+        <Association Name="OpcionesRol">
+          <End Type="dbPrestoModel.Opciones" Role="Opciones" Multiplicity="*" />
+          <End Type="dbPrestoModel.Roles" Role="Roles" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Auditoria">
+          <Key>
+            <PropertyRef Name="IdAuditoria" />
+          </Key>
+          <Property Type="Int32" Name="IdAuditoria" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Tabla" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Identificador" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Usuario" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ValoresAnteriores" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ValoresActuales" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="Fecha" Nullable="false" />
+          <Property Type="Int32" Name="IdServicio" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dbPrestoModelStoreContainer" CdmEntityContainer="dbGeneralsUser">
+          <EntitySetMapping Name="Usuarios">
+            <EntityTypeMapping TypeName="dbPrestoModel.Usuarios">
+              <MappingFragment StoreEntitySet="Usuarios">
+                <ScalarProperty Name="Token" ColumnName="Token" />
+                <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+                <ScalarProperty Name="FechaCambioClave" ColumnName="FechaCambioClave" />
+                <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+                <ScalarProperty Name="Clave2" ColumnName="Clave2" />
+                <ScalarProperty Name="Clave1" ColumnName="Clave1" />
+                <ScalarProperty Name="IntentosBloqueo" ColumnName="IntentosBloqueo" />
+                <ScalarProperty Name="numero_identificacion" ColumnName="numero_identificacion" />
+                <ScalarProperty Name="tel_contacto" ColumnName="tel_contacto" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="isLogged" ColumnName="isLogged" />
+                <ScalarProperty Name="DateLastChagedPassword" ColumnName="DateLastChagedPassword" />
+                <ScalarProperty Name="changePassword" ColumnName="changePassword" />
+                <ScalarProperty Name="id_responsable" ColumnName="id_responsable" />
+                <ScalarProperty Name="intentos" ColumnName="intentos" />
+                <ScalarProperty Name="fecha_ultimavisita" ColumnName="fecha_ultimavisita" />
+                <ScalarProperty Name="bloqueo" ColumnName="bloqueo" />
+                <ScalarProperty Name="activo" ColumnName="activo" />
+                <ScalarProperty Name="fecha_alta" ColumnName="fecha_alta" />
+                <ScalarProperty Name="region" ColumnName="region" />
+                <ScalarProperty Name="id_oficina" ColumnName="id_oficina" />
+                <ScalarProperty Name="organizacion" ColumnName="organizacion" />
+                <ScalarProperty Name="correo_electronico" ColumnName="correo_electronico" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="ap_materno" ColumnName="ap_materno" />
+                <ScalarProperty Name="ap_paterno" ColumnName="ap_paterno" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="id_rol" ColumnName="id_rol" />
+                <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AutorizacionesOpcion">
+            <EntityTypeMapping TypeName="dbPrestoModel.AutorizacionesOpcion">
+              <MappingFragment StoreEntitySet="AutorizacionesOpcion">
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="IdOpciones" ColumnName="IdOpciones" />
+                <ScalarProperty Name="IdAutorizacion" ColumnName="IdAutorizacion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FallasAutenticacion">
+            <EntityTypeMapping TypeName="dbPrestoModel.FallasAutenticacion">
+              <MappingFragment StoreEntitySet="FallasAutenticacion">
+                <ScalarProperty Name="IdServicio" ColumnName="IdServicio" />
+                <ScalarProperty Name="Session" ColumnName="Session" />
+                <ScalarProperty Name="IP" ColumnName="IP" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="IdFalla" ColumnName="IdFalla" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ingresos">
+            <EntityTypeMapping TypeName="dbPrestoModel.Ingresos">
+              <MappingFragment StoreEntitySet="Ingresos">
+                <ScalarProperty Name="IdServicio" ColumnName="IdServicio" />
+                <ScalarProperty Name="Session" ColumnName="Session" />
+                <ScalarProperty Name="IP" ColumnName="IP" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="IdIngreso" ColumnName="IdIngreso" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Navegaciones">
+            <EntityTypeMapping TypeName="dbPrestoModel.Navegaciones">
+              <MappingFragment StoreEntitySet="Navegaciones">
+                <ScalarProperty Name="Pagina" ColumnName="Pagina" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="IdIngreso" ColumnName="IdIngreso" />
+                <ScalarProperty Name="IdNavegacion" ColumnName="IdNavegacion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Parametros">
+            <EntityTypeMapping TypeName="dbPrestoModel.Parametros">
+              <MappingFragment StoreEntitySet="Parametros">
+                <ScalarProperty Name="TipoParametro" ColumnName="TipoParametro" />
+                <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+                <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+                <ScalarProperty Name="Expresion" ColumnName="Expresion" />
+                <ScalarProperty Name="Longitud" ColumnName="Longitud" />
+                <ScalarProperty Name="IdServicio" ColumnName="IdServicio" />
+                <ScalarProperty Name="Valor" ColumnName="Valor" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="IdParametro" ColumnName="IdParametro" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Opciones">
+            <EntityTypeMapping TypeName="dbPrestoModel.Opciones">
+              <MappingFragment StoreEntitySet="Opciones">
+                <ScalarProperty Name="Visibilidad" ColumnName="Visibilidad" />
+                <ScalarProperty Name="Parametros" ColumnName="Parametros" />
+                <ScalarProperty Name="IdServicio" ColumnName="IdServicio" />
+                <ScalarProperty Name="Orden" ColumnName="Orden" />
+                <ScalarProperty Name="Pagina" ColumnName="Pagina" />
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+                <ScalarProperty Name="IdOpcionPadre" ColumnName="IdOpcionPadre" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Idopciones" ColumnName="Idopciones" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Roles">
+            <EntityTypeMapping TypeName="dbPrestoModel.Roles">
+              <MappingFragment StoreEntitySet="Roles">
+                <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+                <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+                <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+                <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+                <ScalarProperty Name="IdServicio" ColumnName="IdServicio" />
+                <ScalarProperty Name="RequiereToken" ColumnName="RequiereToken" />
+                <ScalarProperty Name="Interno" ColumnName="Interno" />
+                <ScalarProperty Name="NivelCreador" ColumnName="NivelCreador" />
+                <ScalarProperty Name="actor" ColumnName="actor" />
+                <ScalarProperty Name="desc_rol" ColumnName="desc_rol" />
+                <ScalarProperty Name="id_rol" ColumnName="id_rol" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="OpcionesAutorizacionRol" TypeName="dbPrestoModel.OpcionesAutorizacionRol" StoreEntitySet="OpcionesAutorizacionRol">
+            <EndProperty Name="Roles">
+              <ScalarProperty Name="id_rol" ColumnName="IdRol" />
+            </EndProperty>
+            <EndProperty Name="AutorizacionesOpcion">
+              <ScalarProperty Name="IdAutorizacion" ColumnName="IdAutorizacion" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="RolesUsuario" TypeName="dbPrestoModel.RolesUsuario" StoreEntitySet="RolesUsuario">
+            <EndProperty Name="Usuarios">
+              <ScalarProperty Name="id_usuario" ColumnName="IdUsuario" />
+            </EndProperty>
+            <EndProperty Name="Roles">
+              <ScalarProperty Name="id_rol" ColumnName="IdRol" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="OpcionesRol" TypeName="dbPrestoModel.OpcionesRol" StoreEntitySet="OpcionesRol">
+            <EndProperty Name="Roles">
+              <ScalarProperty Name="id_rol" ColumnName="IdRol" />
+            </EndProperty>
+            <EndProperty Name="Opciones">
+              <ScalarProperty Name="Idopciones" ColumnName="IdOpcion" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <EntitySetMapping Name="Auditoria">
+            <EntityTypeMapping TypeName="dbPrestoModel.Auditoria">
+              <MappingFragment StoreEntitySet="Auditoria">
+                <ScalarProperty Name="IdServicio" ColumnName="IdServicio" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="ValoresActuales" ColumnName="ValoresActuales" />
+                <ScalarProperty Name="ValoresAnteriores" ColumnName="ValoresAnteriores" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="Identificador" ColumnName="Identificador" />
+                <ScalarProperty Name="Tabla" ColumnName="Tabla" />
+                <ScalarProperty Name="IdAuditoria" ColumnName="IdAuditoria" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Users" ZoomLevel="100">
+        <EntityTypeShape EntityType="dbPrestoModel.Usuarios" Width="1.5" PointX="7.75" PointY="3.75" Height="6.78782226562501" />
+        <EntityTypeShape EntityType="dbPrestoModel.AutorizacionesOpcion" Width="1.5" PointX="4.5" PointY="0.625" Height="2.172587890625" />
+        <EntityTypeShape EntityType="dbPrestoModel.FallasAutenticacion" Width="1.5" PointX="0.75" PointY="9.75" Height="2.1725878906250102" />
+        <EntityTypeShape EntityType="dbPrestoModel.Ingresos" Width="1.5" PointX="0.75" PointY="6" Height="2.3648893229166674" />
+        <EntityTypeShape EntityType="dbPrestoModel.Navegaciones" Width="1.5" PointX="3" PointY="6.125" Height="1.9802864583333246" />
+        <EntityTypeShape EntityType="dbPrestoModel.Parametros" Width="1.5" PointX="2.75" PointY="9.75" Height="2.9417936197916674" />
+        <AssociationConnector Association="dbPrestoModel.FK_Navegaciones_Ingresos" >
+          <ConnectorPoint PointX="2.25" PointY="7.1151432291666623" />
+          <ConnectorPoint PointX="3" PointY="7.1151432291666623" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="dbPrestoModel.Opciones" Width="1.5" PointX="0.5" PointY="0.5" Height="3.3263964843750102" />
+        <EntityTypeShape EntityType="dbPrestoModel.Roles" Width="1.5" PointX="5.25" PointY="8" Height="3.5186979166666674" />
+        <AssociationConnector Association="dbPrestoModel.FK_AutorizacionesOpcion_Opciones" >
+          <ConnectorPoint PointX="2" PointY="1.7112939453124998" />
+          <ConnectorPoint PointX="4.5" PointY="1.7112939453124998" />
+        </AssociationConnector>
+        <AssociationConnector Association="dbPrestoModel.OpcionesAutorizacionRol" >
+          <ConnectorPoint PointX="5.625" PointY="2.797587890625" />
+          <ConnectorPoint PointX="5.625" PointY="8" />
+        </AssociationConnector>
+        <AssociationConnector Association="dbPrestoModel.RolesUsuario" >
+          <ConnectorPoint PointX="6.75" PointY="9.4612125651041659" />
+          <ConnectorPoint PointX="7.75" PointY="9.4612125651041659" />
+        </AssociationConnector>
+        <AssociationConnector Association="dbPrestoModel.OpcionesRol" >
+          <ConnectorPoint PointX="0.59375" PointY="3.826396484375" />
+          <ConnectorPoint PointX="0.59375" PointY="9.0574446614583337" />
+          <ConnectorPoint PointX="5.25" PointY="9.0574446614583337" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="dbPrestoModel.Auditoria" Width="1.5" PointX="10.375" PointY="0.75" Height="2.5571907552083317" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,7 @@
+ERROR 2016-11-02 15:10:13,497 - Mensaje:'TipoMovimiento' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-02 15:58:06,600 - Mensaje:DataBinding: 'Generals.business.Entities.Usuarios+Usuario' does not contain a property with the name 'id_usuario'., Inner:NA
+ERROR 2016-11-02 16:42:48,183 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-11-02 16:43:09,794 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-11-02 16:43:31,400 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-11-02 16:46:08,738 - Mensaje:Input string was not in a correct format., Inner:NA

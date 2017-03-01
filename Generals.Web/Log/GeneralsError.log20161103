@@ -1,0 +1,20 @@
+ERROR 2016-11-03 10:14:43,565 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-03 10:15:13,438 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-03 10:17:09,524 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-03 10:25:22,032 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-03 10:30:48,177 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-03 10:32:09,243 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-03 10:33:58,584 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-03 10:37:24,899 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-03 10:41:26,179 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-03 10:48:16,777 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Roles_Usuarios". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.Users", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-03 10:50:25,583 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Roles_Usuarios". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.Users", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-03 11:06:02,970 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Roles_Usuarios". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.Users", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-03 14:46:29,032 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_Roles_Usuarios". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.Users", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-03 15:14:36,961 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-11-03 15:16:58,263 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-11-03 16:01:48,660 - Mensaje:Input string was not in a correct format., Inner:NA

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+#if ($clave!="")
+	<table>
+	  <tr>
+		<td>
+		  Grupo AyP-Inversiones le informa que la clave de el usuario $usuario.username ha sido reseteada, por favor ingrese a htt://200.116.53.176/AyPInveriones con la clave <b>
+		  <i>
+			<span style="color:#FF0000">$clave</span>
+		  </i>
+		</b>. Recuerde cambiar la clave en el primer ingreso.
+		</td>
+	  </tr>
+	</table>
+#end

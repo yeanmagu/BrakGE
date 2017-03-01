@@ -1,0 +1,24 @@
+ERROR 2016-11-23 09:15:47,664 - Mensaje:The underlying provider failed on Open., Inner:No se puede abrir la base de datos "dbLogin" solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'Lenovo-PC\PROGRAMADOR'.
+ERROR 2016-11-23 09:17:46,425 - Mensaje:The underlying provider failed on Open., Inner:No se puede abrir la base de datos "dbLogin" solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'Lenovo-PC\PROGRAMADOR'.
+ERROR 2016-11-23 15:39:32,742 - Mensaje:El nombre de columna 'NumeroCotizacion' no es válido., Inner:NA
+ERROR 2016-11-23 15:39:33,295 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-23 15:39:33,565 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-23 15:39:34,013 - Mensaje:El nombre de columna 'DiasCreditoProve' no es válido., Inner:NA
+ERROR 2016-11-23 15:41:22,330 - Mensaje:El nombre de columna 'NumeroCotizacion' no es válido., Inner:NA
+ERROR 2016-11-23 15:41:22,599 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-23 15:41:22,840 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-23 15:41:23,240 - Mensaje:El nombre de columna 'DiasCreditoProve' no es válido., Inner:NA
+ERROR 2016-11-23 15:41:28,052 - Mensaje:El nombre de columna 'NumeroCotizacion' no es válido., Inner:NA
+ERROR 2016-11-23 15:41:28,247 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-23 15:41:28,423 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-23 15:41:28,743 - Mensaje:El nombre de columna 'DiasCreditoProve' no es válido., Inner:NA
+ERROR 2016-11-23 15:44:31,665 - Mensaje:El nombre de columna 'NumeroCotizacion' no es válido., Inner:NA
+ERROR 2016-11-23 15:44:31,939 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-23 15:44:32,143 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-23 15:44:32,521 - Mensaje:El nombre de columna 'DiasCreditoProve' no es válido., Inner:NA
+ERROR 2016-11-23 15:46:14,865 - Mensaje:El nombre de columna 'NumeroCotizacion' no es válido., Inner:NA
+ERROR 2016-11-23 15:46:15,115 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-23 15:46:15,315 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-23 15:46:15,683 - Mensaje:El nombre de columna 'DiasCreditoProve' no es válido., Inner:NA

@@ -1,0 +1,18 @@
+ERROR 2016-09-19 10:58:54,792 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-09-19 11:00:36,565 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-09-19 11:02:17,990 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-09-19 11:03:13,251 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-09-19 11:03:31,063 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-09-19 11:05:09,194 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-09-19 11:09:25,673 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-09-19 11:10:00,241 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-09-19 11:18:58,725 - Mensaje:'SubGrupo' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-09-19 11:20:40,931 - Mensaje:'SubGrupo' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-09-19 11:35:01,381 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-09-19 11:35:51,833 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-09-19 14:42:08,800 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-09-19 14:43:02,871 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-09-19 15:07:37,269 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-09-19 15:17:57,311 - Mensaje:Input string was not in a correct format., Inner:NA

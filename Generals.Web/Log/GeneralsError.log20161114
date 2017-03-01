@@ -1,0 +1,21 @@
+ERROR 2016-11-14 08:42:24,733 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-14 08:43:57,345 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-14 08:45:54,283 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-14 08:45:57,784 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-14 08:46:05,128 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-14 08:46:32,586 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-14 09:09:55,737 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-14 09:12:34,237 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-14 09:20:28,841 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-11-14 09:22:53,599 - Mensaje:A field or property with the name 'TipoMovimiento' was not found on the selected data source., Inner:NA
+ERROR 2016-11-14 09:25:56,482 - Mensaje:A field or property with the name 'FechaCreacion' was not found on the selected data source., Inner:NA
+ERROR 2016-11-14 11:47:07,576 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-11-14 12:08:07,462 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_PlanPagoCredito_Documentos". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.Documentos", column 'ID'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-14 12:14:20,871 - Mensaje:MSDTC no está disponible en el servidor 'LENOVO-PC'., Inner:NA
+ERROR 2016-11-14 21:44:12,574 - Mensaje:The underlying provider failed on Open., Inner:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ERROR 2016-11-14 21:45:51,583 - Mensaje:The underlying provider failed on Open., Inner:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ERROR 2016-11-14 21:50:05,997 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_CuotasPagoPendiente_ModoPago". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.ModoPago", column 'Id'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-11-14 22:35:07,529 - Mensaje:String was not recognized as a valid DateTime., Inner:NA
+ERROR 2016-11-14 22:35:14,653 - Mensaje:String was not recognized as a valid DateTime., Inner:NA

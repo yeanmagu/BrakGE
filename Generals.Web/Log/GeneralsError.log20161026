@@ -1,0 +1,22 @@
+ERROR 2016-10-26 14:49:54,488 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 15:15:59,019 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 15:17:52,356 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 15:18:17,461 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 15:18:28,857 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 15:22:28,674 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 15:24:49,283 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 15:34:14,125 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 15:34:19,895 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 15:36:08,496 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 15:36:51,534 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 19:03:21,926 - Mensaje:Nullable object must have a value., Inner:NA
+ERROR 2016-10-26 21:15:01,479 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name 'Preci'., Inner:NA
+ERROR 2016-10-26 21:15:02,543 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name 'Preci'., Inner:NA
+ERROR 2016-10-26 21:15:02,834 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name 'Preci'., Inner:NA
+ERROR 2016-10-26 21:15:03,532 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name 'Preci'., Inner:NA
+ERROR 2016-10-26 21:15:03,854 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name 'Preci'., Inner:NA
+ERROR 2016-10-26 21:15:04,120 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name 'Preci'., Inner:NA
+ERROR 2016-10-26 21:15:04,519 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name 'Preci'., Inner:NA
+ERROR 2016-10-26 21:15:04,735 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name 'Preci'., Inner:NA
+ERROR 2016-10-26 21:15:04,957 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name 'Preci'., Inner:NA
+ERROR 2016-10-26 21:15:05,139 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name 'Preci'., Inner:NA

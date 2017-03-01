@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79E1A452-53E0-4E80-8E00-C99919D29C4D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Generals.business</RootNamespace>
+    <AssemblyName>Generals.business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\packages\AjaxControlToolkit.16.1.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.7.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.7\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp.pdfa, Version=5.5.7.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.pdfa.5.5.7\lib\itextsharp.pdfa.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.7.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xmlworker.5.5.7\lib\itextsharp.xmlworker.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp.xtra, Version=5.5.7.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xtra.5.5.7\lib\itextsharp.xtra.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Resources\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="NVelocity, Version=0.5.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\NVelocity.dll</HintPath>
+    </Reference>
+    <Reference Include="NVelocityTemplateEngine, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\NVelocityTemplateEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Application.cs" />
+    <Compile Include="Common\Constantes.cs" />
+    <Compile Include="Common\CrearPDF.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\CrearReport.cs" />
+    <Compile Include="Common\Descriptive.cs" />
+    <Compile Include="Common\DescriptiveResult.cs" />
+    <Compile Include="Common\Enumerados.cs" />
+    <Compile Include="Common\Exceptions.cs" />
+    <Compile Include="Common\ITextEvents.cs" />
+    <Compile Include="Common\Log.cs" />
+    <Compile Include="Common\Metodos.cs" />
+    <Compile Include="Common\statistics.cs" />
+    <Compile Include="Common\UtilidadUsuario.cs" />
+    <Compile Include="Components\AuditoriaAcceso.cs" />
+    <Compile Include="Components\DocumentManager.cs" />
+    <Compile Include="Components\FileInfo.cs" />
+    <Compile Include="Components\PrestoSmtpClient.cs" />
+    <Compile Include="Components\Security.cs" />
+    <Compile Include="Data\Data.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BllReclamacion.cs" />
+    <Compile Include="Entities\BllBrief.cs" />
+    <Compile Include="Entities\BllCuentasPendientes.cs" />
+    <Compile Include="Entities\BllCuotasPagoPendiente.cs" />
+    <Compile Include="Entities\BllFormaPagoPendientes.cs" />
+    <Compile Include="Entities\BllModoDePago.cs" />
+    <Compile Include="Entities\BllFotosBrief.cs" />
+    <Compile Include="Entities\BllAcuerdoPagoCuentasPendientes.cs" />
+    <Compile Include="Entities\BllRecibosPago.cs" />
+    <Compile Include="Entities\BllInventario.cs" />
+    <Compile Include="Entities\BllCuotaPago.cs" />
+    <Compile Include="Entities\BllPlandePago.cs" />
+    <Compile Include="Entities\BllRemisionesExternas.cs" />
+    <Compile Include="Entities\BllRecibosCaja.cs" />
+    <Compile Include="Entities\BllProgramacionTarea.cs" />
+    <Compile Include="Entities\BllProcesos.cs" />
+    <Compile Include="Entities\BllPersonas.cs" />
+    <Compile Include="Entities\BllModificaciones.cs" />
+    <Compile Include="Entities\BllItem.cs" />
+    <Compile Include="Entities\BllMaterialesActaDetalle.cs" />
+    <Compile Include="Entities\BllFormaDePago.cs" />
+    <Compile Include="Entities\BllEmpresa.cs" />
+    <Compile Include="Entities\BllDocumentos.cs" />
+    <Compile Include="Entities\BllDetalleRemision.cs" />
+    <Compile Include="Entities\BllDetalleDocumento.cs" />
+    <Compile Include="Entities\BllDetalleActa.cs" />
+    <Compile Include="Entities\BllBodega.cs" />
+    <Compile Include="Entities\BllControlEntregasInternas.cs" />
+    <Compile Include="Entities\BllControlDeProcesos.cs" />
+    <Compile Include="Entities\BllEstadoEnvio.cs" />
+    <Compile Include="Entities\BllMateriales.cs" />
+    <Compile Include="Entities\BllMarcas.cs" />
+    <Compile Include="Entities\BllPaises.cs" />
+    <Compile Include="Entities\BllRoles.cs" />
+    <Compile Include="Entities\BllActas.cs" />
+    <Compile Include="Entities\BllColor.cs" />
+    <Compile Include="Entities\BllGrupo.cs" />
+    <Compile Include="Entities\BllIva.cs" />
+    <Compile Include="Entities\BllMunicipio.cs" />
+    <Compile Include="Entities\BllSubGrupo.cs" />
+    <Compile Include="Entities\BllDPTO.cs" />
+    <Compile Include="Entities\BllEstadoDocumento.cs" />
+    <Compile Include="Entities\BllFotosItems.cs" />
+    <Compile Include="Entities\BllGrupomarca.cs" />
+    <Compile Include="Entities\BllMotivoModificaciones.cs" />
+    <Compile Include="Entities\BllTalla.cs" />
+    <Compile Include="Entities\BllTipoMovimiento.cs" />
+    <Compile Include="Entities\BllSw.cs" />
+    <Compile Include="Entities\BllTipoActa.cs" />
+    <Compile Include="Entities\BllTipoCliente.cs" />
+    <Compile Include="Entities\BllTipoMontaje.cs" />
+    <Compile Include="Entities\BllTipoDocumento.cs" />
+    <Compile Include="Entities\BllTipoPersona.cs" />
+    <Compile Include="Entities\BllTipoProceso.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entities\BllUsuarios.cs" />
+    <Compile Include="UserEntities\Correo.cs" />
+    <Compile Include="UserEntities\dbPrestoUser.cs" />
+    <Compile Include="UserEntities\guardarAuditoria.cs" />
+    <Compile Include="UserEntities\Ingreso.cs" />
+    <Compile Include="UserEntities\Parametro.cs" />
+    <Compile Include="UserEntities\Respuesta.cs" />
+    <Compile Include="UserEntities\Rol.cs" />
+    <Compile Include="UserEntities\Sesiones.cs" />
+    <Compile Include="UserEntities\ClasesParticulares.cs" />
+    <Compile Include="UserEntities\Layer.cs" />
+    <Compile Include="Entities\PaginaBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entities\Roles.cs" />
+    <Compile Include="Entities\Sesion.cs" />
+    <Compile Include="UserEntities\Users.cs" />
+    <Compile Include="Entities\UserControlBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entities\Usuarios.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="UserEntities\Users.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Users.edmx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\Data.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Data.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\edmxResourcesToEmbed\UserEntities\Users.csdl" />
+    <None Include="obj\Debug\edmxResourcesToEmbed\UserEntities\Users.msl" />
+    <None Include="obj\Debug\edmxResourcesToEmbed\UserEntities\Users.ssdl" />
+    <None Include="obj\Debug\Generals.business.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Release\build.force" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\edmxResourcesToEmbed\UserEntities\Users.csdl" />
+    <None Include="obj\Release\edmxResourcesToEmbed\UserEntities\Users.msl" />
+    <None Include="obj\Release\edmxResourcesToEmbed\UserEntities\Users.ssdl" />
+    <None Include="obj\Release\Generals.business.csprojResolveAssemblyReference.cache" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\presto.business.UserEntities.dbPrestoUser.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EntityDeploy Include="UserEntities\Users.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Users.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Generals.framework\Generals.framework.csproj">
+      <Project>{62873D00-BC7C-4655-A182-C7CC6912462F}</Project>
+      <Name>Generals.framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Generals.business.dll" />
+    <Content Include="bin\Debug\Generals.business.pdb" />
+    <Content Include="bin\Debug\itextsharp.dll" />
+    <Content Include="bin\Debug\itextsharp.pdfa.dll" />
+    <Content Include="bin\Debug\itextsharp.xml" />
+    <Content Include="bin\Debug\itextsharp.xmlworker.dll" />
+    <Content Include="bin\Debug\itextsharp.xtra.dll" />
+    <Content Include="obj\Debug\Generals.business.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Generals.business.dll" />
+    <Content Include="obj\Debug\Generals.business.pdb" />
+    <Content Include="obj\Debug\TempPE\Data.admin1.designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Data.Data.designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Data.Data1.designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Data.designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\UserEntities.Users.Designer.cs.dll" />
+    <Content Include="obj\Release\Generals.business.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\TempPE\Data.admin1.designer.cs.dll" />
+    <Content Include="obj\Release\TempPE\Data.Data1.designer.cs.dll" />
+    <Content Include="obj\Release\TempPE\UserEntities.Users.Designer.cs.dll" />
+    <None Include="Common\ImportReport.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Data.dbml.layout">
+      <DependentUpon>Data.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

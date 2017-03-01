@@ -1,0 +1,24 @@
+ERROR 2016-08-11 15:25:36,785 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllTipoCliente]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllTipoPersona]'., Inner:NA
+ERROR 2016-08-11 15:25:54,464 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllTipoCliente]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllTipoPersona]'., Inner:NA
+ERROR 2016-08-11 15:29:35,735 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllTipoCliente]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllTipoPersona]'., Inner:NA
+ERROR 2016-08-11 15:29:53,766 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllTipoCliente]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllTipoPersona]'., Inner:NA
+ERROR 2016-08-11 15:56:29,145 - Mensaje:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., Inner:NA
+ERROR 2016-08-11 15:56:47,198 - Mensaje:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., Inner:NA
+ERROR 2016-08-11 15:56:52,571 - Mensaje:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., Inner:NA
+ERROR 2016-08-11 15:57:00,578 - Mensaje:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., Inner:NA
+ERROR 2016-08-11 15:57:06,560 - Mensaje:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., Inner:NA
+ERROR 2016-08-11 16:01:11,790 - Mensaje:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., Inner:NA
+ERROR 2016-08-11 16:03:22,987 - Mensaje:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., Inner:NA
+ERROR 2016-08-11 16:05:43,599 - Mensaje:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., Inner:NA
+ERROR 2016-08-11 16:05:52,141 - Mensaje:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., Inner:NA
+ERROR 2016-08-11 16:08:18,225 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA
+ERROR 2016-08-11 16:08:53,330 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA
+ERROR 2016-08-11 16:09:03,872 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA
+ERROR 2016-08-11 16:09:15,961 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA
+ERROR 2016-08-11 16:09:25,249 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA
+ERROR 2016-08-11 16:14:44,286 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA
+ERROR 2016-08-11 16:20:40,772 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA
+ERROR 2016-08-11 16:21:02,570 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA
+ERROR 2016-08-11 16:22:39,769 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA
+ERROR 2016-08-11 16:26:01,455 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA
+ERROR 2016-08-11 16:27:54,966 - Mensaje:A field or property with the name 'Apellido' was not found on the selected data source., Inner:NA

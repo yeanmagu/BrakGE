@@ -1,0 +1,84 @@
+/*
+ * jquery.mb.components
+ * Copyright (c) 2001-2010. Matteo Bicocchi (Pupunzi); Open lab srl, Firenze - Italy
+ * email: mbicocchi@open-lab.com
+ * site: http://pupunzi.com
+ *
+ * Licences: MIT, GPL
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ */
+
+
+#wrapper{
+  width: 225px;
+  display:none;
+  margin:7px;
+  /*width:1000px;*/
+}
+
+#miScroll{
+/*display:none;*/
+}
+
+
+
+#miScroll .scrollEl{
+  display:none;
+  background:url("../elements/elBgnd.png") repeat-x;
+  color:white;
+  width:225px;
+  height:320px;
+}
+#myScroll1 .scrollEl{
+  display:none;
+  padding:10px;
+  padding-top:40%;
+  color:white;
+  width: 225px;
+  height:100%;
+  text-align:center;
+  /*CSS3 properties*/
+
+}
+
+
+#controles div, #controls1 div{
+  margin-top:5px;
+  display:inline-block;
+  padding:6px;
+  cursor:pointer;
+  
+}
+
+#controles div.positiondisplay{
+	color:#fff;
+	cursor:default;
+}
+    
+
+#miScroll1{
+  float:left;
+  margin-right:20px;
+  width:225px;
+  height:320px;
+}
+
+
+.prev
+{
+    position:absolute;
+    top:740px !important;
+    left:210px !important;
+     width:30px;
+     height:30px; 
+}
+.next
+{
+    position:absolute;
+    top:740px  !important;
+    left:400px !important; 
+    width:50px; 
+    width:30px;
+     height:30px;
+}

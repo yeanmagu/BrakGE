@@ -1,0 +1,48 @@
+﻿body {
+}
+.button_start {
+    background:  no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    height: 31px;
+    /*width: 200px;*/
+	font-size:14px;
+	background-repeat:repeat-x;	
+}
+
+.LabelVentana
+{
+	text-align: right;
+	background-repeat:repeat-x;
+	/*background-image: url('../../Imagenes/BarraPrincipal.png');*/
+}
+.HeaderVentanagrilla
+{
+	text-align: center;
+	background-repeat:repeat-x;
+	/*background-image: url('../../Imagenes/button_start.png');*/
+	color:White ;
+	background-color:White ;
+	font-weight :bold ;
+}
+
+.HeaderStyleGridview
+{
+	 /*background: url("../../Imagenes/BarraPrincipal.png") no-repeat scroll 0 0 transparent;*/
+    border: medium none;
+    color: #FFFFFF;
+    height: 31px;
+    width: 100%;
+	font-size:14px;
+	background-repeat:repeat-x;
+	
+}
+.LabelVentanaSinX
+{
+    color: #FFFFFF;	
+	font-size:14px;
+	font-weight:bold;
+	background-repeat:repeat-x;
+	/*background-image: url('../../Imagenes/button_start.png');*/
+	
+}

@@ -1,0 +1,380 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    /*font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;*/
+    margin: 0px;
+    padding: 0px;
+    color: black;
+
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 960px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+    height: 100%;
+    min-height:700px;
+}
+
+
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 0px 59px 8px 0px;
+    min-height: 420px;
+    height: 100%;
+    width: 937px;
+    min-height:700px;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #CC3300;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    /*background-color:#CC3300;*/
+    width:100%;
+}
+
+div.menu
+{
+
+    width: 939px;
+    padding-left:110px;
+    border-top-left-radius:5px !important;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    background: #464646; 
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    
+
+     
+
+}
+
+    div.menu ul li ul
+    {
+        background: #464646; 
+    }
+
+
+    div.menu ul li ul li
+    {
+        margin:0;
+        padding:0;
+        border-left:thin solid #FFF;
+        border-right:thin solid #FFF;
+        
+    }
+
+    div.menu ul li ul li a
+    {   
+        text-align:left !important;
+    }
+div.menu ul li a
+{
+        margin:0;
+        padding:5px 15px;
+        padding-bottom:30px !important;
+        font-size:1em !important;
+        padding-top:10px;
+        height:30px;
+
+        
+        
+}
+
+    div.menu ul li a:hover
+    {
+        background:#e93e58;
+    }
+
+
+
+div.menu ul a, div.menu ul  a:visited
+{  
+    /*background-color: #666666;*/
+  
+    /*Color de letra*/
+    color: #ffffff;
+    display: block;
+    
+         
+ 
+    text-decoration:none;
+    border:none !important;
+    
+    white-space: nowrap;
+    
+}
+
+
+/*FOCO ENCIMA*/
+div.menu ul li a:hover
+{
+    /*background-color:#e51837; */
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Clickeado*/
+div.menu ul li a:active
+{
+    background-color: #ffffff;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+/*----------------------------------------------------------*/
+
+
+
+/*nuevo diseño de la pagina*/
+
+td
+{
+    font-weight:normal !important;
+    font-size:9pt !important;
+    border:0 !important;
+    
+}
+
+
+
+.tablas td
+{
+    font-size:9pt !important;
+}
+
+.grilla
+{
+    border-left:1px solid #b6b7bc !important;
+}
+.grilla td
+{
+    border-left:1px solid #b6b7bc !important;
+   
+}
+
+
+option
+{
+    border-radius:5px !important;
+}
+
+input
+{
+    font-size:9pt !important;
+}
+
+.campo
+{
+
+    border:thin solid #CCCCCC !important;
+}
+
+
+
+/*x de los popups*/
+.icon-cancel {
+    color:#d9d9d9;
+}
+
+    .icon-cancel:hover {
+        color:#FFFFFF;
+    }
+
+input [type=text]
+{
+    border:thin solid #CCCCCC !important;
+}
+
+
+ .cab-gris {
+            background:#919191 !important;
+            margin-bottom:10px;
+        }
+     .bar-red {
+             background: #e93e58 !important; /* Old browsers */
+            background: -moz-linear-gradient(top,  #e93e58 0%, #c0152f 100%) !important; /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e93e58), color-stop(100%,#c0152f)) !important; /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #e93e58 0%,#c0152f 100%) !important; /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #e93e58 0%,#c0152f 100%) !important; /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #e93e58 0%,#c0152f 100%) !important; /* IE10+ */
+            background: linear-gradient(to bottom,  #e93e58 0%,#c0152f 100%) !important; /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e93e58', endColorstr='#c0152f',GradientType=0 ) !important; /* IE6-9 */
+
+          
+            padding-bottom:10px;
+            border-radius:5px 5px 0px 0px;
+            
+        }
+
+       .btn.pretty.danger, .pretty .danger.btn, .pretty .danger.skiplink, .skiplink.pretty.danger{
+              background: #e93e58 !important; /* Old browsers */
+            background: -moz-linear-gradient(top,  #e93e58 0%, #c0152f 100%) !important; /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e93e58), color-stop(100%,#c0152f)) !important; /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #e93e58 0%,#c0152f 100%) !important; /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #e93e58 0%,#c0152f 100%) !important; /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #e93e58 0%,#c0152f 100%) !important; /* IE10+ */
+            background: linear-gradient(to bottom,  #e93e58 0%,#c0152f 100%) !important; /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e93e58', endColorstr='#c0152f',GradientType=0 ) !important; /* IE6-9 */
+
+        }
+
+         .pretty danger btn {
+            color:#fff !important;
+        }
+
+
+
+       h6 {
+            color:#fff !important;
+            margin-left:5px !important;
+        }
+
+
+
+.alinear-izquierda
+{
+    float:left;
+    margin-left:10px;
+    margin-bottom:10px;
+    height: 26px;
+}
+
+.botones
+{
+    width:143px !important;
+}
+
+.validador {
+    width:300px !important;
+    margin:0 !important;
+    background:#eae611 !important;
+    color:#ffffff !important;
+}

@@ -1,0 +1,119 @@
+﻿ /*new desing*/
+
+           
+            .cont
+            {
+               
+                width:900px;
+                text-align:left;
+                margin:0px 20px;
+                
+            }
+            .datosPaciente, .cabPaciente, .cuePaciente
+            {
+                width:900px;
+                
+            }
+            .datosPaciente
+            {
+                
+                height:70px;
+                border-radius:5px;
+                border:thin solid #b5b5b5;
+            }
+
+            .cabPaciente
+            {
+                width:899px !important;
+                height:auto;
+                background:#e93e58;
+                color:#FFF;
+                border-radius:5px 5px 0px 0px;
+                text-align:center;
+            }
+            .cuePaciente
+            {
+                height:auto;
+                padding:5px;
+            }
+
+            /*tablas internas*/
+            .datosPaciente table, .rel table
+            {
+                border: none !important;
+            }
+            .datosPaciente table td, .rel table td
+            {
+                border: none !important;
+            }
+            
+
+
+            /*cajas form y grilla*/
+
+            .rel
+            {
+                
+                
+                width:900px;
+                margin-top:10px;
+                border-radius:5px;
+                padding:0 !important;
+                text-align:left;
+             
+                
+
+            }
+
+            
+            .cabs
+            {
+                width:100%;
+                height:auto;
+                color:#FFF;
+                text-align:center;
+                vertical-align:middle;
+                background:#e93e58;
+                border-radius:5px 5px 0px 0px;
+            }
+
+            .cont-form
+            {
+                height:auto;
+                width:100%;
+                padding:5px;
+                border:1px solid #b5b5b5;
+                border-top:none;
+                border-radius:0px 0px 5px 5px;
+            }
+            .derecho, .izquierdo
+            {
+                display:inline-block !important;
+                width:440px;
+                
+            }
+
+            .izquierdo
+            {
+                margin-right:15px;
+            }            
+            .derecho
+            {
+                
+            }
+
+
+
+            .bottom 
+            {
+               /* border-bottom:1px solid #d4d4d4 !important;*/
+            }
+
+
+
+
+thead
+{
+    background:#e2eeed !important;
+   
+}

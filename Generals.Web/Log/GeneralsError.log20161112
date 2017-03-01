@@ -1,0 +1,9 @@
+ERROR 2016-11-12 23:23:30,268 - Mensaje:Thread was being aborted., Inner:NA
+ERROR 2016-11-12 23:24:42,738 - Mensaje:Thread was being aborted., Inner:NA
+ERROR 2016-11-12 23:25:10,537 - Mensaje:Thread was being aborted., Inner:NA
+ERROR 2016-11-12 23:25:52,275 - Mensaje:Thread was being aborted., Inner:NA
+ERROR 2016-11-12 23:27:42,753 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-11-12 23:48:04,844 - Mensaje:'TipoMovimiento' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-11-12 23:49:25,247 - Mensaje:'TipoMovimiento' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA

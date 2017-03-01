@@ -1,0 +1,20 @@
+ERROR 2016-12-06 09:05:22,298 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:05:26,912 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:05:29,299 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:05:29,582 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:06:28,697 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:07:45,458 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:07:50,067 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:07:50,187 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:09:48,883 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:10:20,642 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:10:24,401 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:10:31,390 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:10:36,169 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:10:41,776 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:11:49,980 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-12-06 09:52:35,989 - Mensaje:Index and length must refer to a location within the string.
+Parameter name: length, Inner:NA
+ERROR 2016-12-06 10:01:02,948 - Mensaje:Thread was being aborted., Inner:NA
+ERROR 2016-12-06 15:40:08,891 - Mensaje:Index and length must refer to a location within the string.
+Parameter name: length, Inner:NA

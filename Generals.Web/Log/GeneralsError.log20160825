@@ -1,0 +1,19 @@
+ERROR 2016-08-25 11:15:23,763 - Mensaje:'SubGrupo' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-08-25 11:15:45,248 - Mensaje:'SubGrupo' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-08-25 11:15:55,520 - Mensaje:'SubGrupo' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value, Inner:NA
+ERROR 2016-08-25 11:23:09,834 - Mensaje:String was not recognized as a valid DateTime., Inner:NA
+ERROR 2016-08-25 11:35:57,639 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-25 11:38:11,576 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-25 11:39:05,430 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-25 11:39:09,960 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-25 11:39:13,363 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-25 11:39:17,068 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-25 11:41:19,155 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-08-25 11:41:32,817 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-08-25 11:41:35,818 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-08-25 11:41:37,620 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllGrupo]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllSubGrupo]'., Inner:NA
+ERROR 2016-08-25 11:50:58,525 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-25 11:51:37,881 - Mensaje:Input string was not in a correct format., Inner:NA

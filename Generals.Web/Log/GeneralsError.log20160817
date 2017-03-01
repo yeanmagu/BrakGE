@@ -1,0 +1,14 @@
+ERROR 2016-08-17 10:35:38,639 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-17 10:38:05,068 - Mensaje:Input string was not in a correct format., Inner:NA
+ERROR 2016-08-17 10:44:14,576 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-08-17 10:51:31,962 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-08-17 10:53:39,524 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-08-17 10:55:25,571 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-08-17 10:55:46,951 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-08-17 11:56:47,776 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-08-17 12:13:36,456 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-08-17 12:14:20,044 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-08-17 12:18:21,217 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-08-17 16:34:43,431 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-08-17 16:40:24,058 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllDocumentos]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllDetalleDocumento]'., Inner:NA
+ERROR 2016-08-17 16:44:20,849 - Mensaje:Unable to cast object of type 'System.Collections.Generic.List`1[Generals.business.Entities.BllDocumentos]' to type 'System.Collections.Generic.List`1[Generals.business.Entities.BllDetalleDocumento]'., Inner:NA

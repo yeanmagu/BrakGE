@@ -1,0 +1,9 @@
+ERROR 2016-10-07 09:16:27,237 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_CuotaPago_PlanPagoCredito". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.PlanPagoCredito", column 'Id'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-10-07 09:27:06,703 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_CuotaPago_PlanPagoCredito". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.PlanPagoCredito", column 'Id'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-10-07 09:30:45,304 - Mensaje:Instrucción INSERT en conflicto con la restricción FOREIGN KEY "FK_CuotaPago_PlanPagoCredito". El conflicto ha aparecido en la base de datos "dbBrakGE", tabla "dbo.PlanPagoCredito", column 'Id'.
+Se terminó la instrucción., Inner:NA
+ERROR 2016-10-07 11:05:54,397 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-10-07 11:06:16,186 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-10-07 11:06:21,853 - Mensaje:Object reference not set to an instance of an object., Inner:NA

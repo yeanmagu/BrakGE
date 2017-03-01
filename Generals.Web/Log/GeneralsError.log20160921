@@ -1,0 +1,11 @@
+ERROR 2016-09-21 15:04:19,017 - Mensaje:String was not recognized as a valid DateTime., Inner:NA
+ERROR 2016-09-21 15:05:15,229 - Mensaje:String was not recognized as a valid DateTime., Inner:NA
+ERROR 2016-09-21 15:06:45,349 - Mensaje:String was not recognized as a valid DateTime., Inner:NA
+ERROR 2016-09-21 15:06:55,833 - Mensaje:String was not recognized as a valid DateTime., Inner:NA
+ERROR 2016-09-21 15:07:07,430 - Mensaje:String was not recognized as a valid DateTime., Inner:NA
+ERROR 2016-09-21 16:00:44,853 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-09-21 16:02:16,101 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-09-21 16:05:02,657 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-09-21 16:08:47,372 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-09-21 16:19:34,643 - Mensaje:Object reference not set to an instance of an object., Inner:NA
+ERROR 2016-09-21 17:35:04,046 - Mensaje:DataBinding: 'Generals.business.Entities.BllDetalleDocumento' does not contain a property with the name '$2,000,000'., Inner:NA
